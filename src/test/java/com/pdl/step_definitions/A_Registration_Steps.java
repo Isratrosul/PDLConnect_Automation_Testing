@@ -1,5 +1,7 @@
 package com.pdl.step_definitions;
 
+
+import com.github.dockerjava.api.model.Driver;
 import com.pdl.pages.Homepage_Quafox;
 
 import io.cucumber.java.en.And;
@@ -9,13 +11,12 @@ import io.cucumber.java.en.When;
 
 public class A_Registration_Steps {
 	
-	
 	Homepage_Quafox homePage= new Homepage_Quafox();
 	
 	@Given("Navigate to the registration page using the provided URL")
 	public void navigate_to_the_registration_page_using_the_provided_url() {
-		
 		homePage.Verify_user_is_onHomepage();
+	
 	}
 
 	@Then("Click the link")

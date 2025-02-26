@@ -20,4 +20,9 @@ public class Homepage_Quafox extends CommonMethods{
 		String ExpectedTitle = "Register Account" ;
 		Assert.assertEquals("Verify_user_is_on_Homepage",ActualTitle , ExpectedTitle);
 	 }
+	 
+	 
+	 
+	 public void clickRegisterLink() {
+	    }
 }
