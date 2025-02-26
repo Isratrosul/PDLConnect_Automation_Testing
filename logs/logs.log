@@ -1266,3 +1266,217 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-02 16:11:30.387 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - running DEF tag Status - PASSED
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 22:59:35.189 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-24 22:59:37.928 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-24 22:59:37.928 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-24 22:59:37.965 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-24 22:59:37.967 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-24 22:59:38.010 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-24 22:59:38.021 [main] Hooks - ================================================================
+[INFO ] 2025-02-24 22:59:38.021 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-24 22:59:38.022 [main] Hooks - =================================================================
+[INFO ] 2025-02-24 22:59:38.754 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-24 22:59:39.329 [main] Hooks - Driver Closed
+[INFO ] 2025-02-24 22:59:39.329 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 22:59:39.332 [main] Hooks - 01_Validate User accesses the registration web page Status - UNDEFINED
+[INFO ] 2025-02-24 22:59:39.332 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 22:59:41.525 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-24 22:59:44.455 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-24 22:59:44.455 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-24 22:59:44.496 [main] Hooks - ================================================================
+[INFO ] 2025-02-24 22:59:44.496 [main] Hooks - Scenario Title: Title of your scenario outline
+[INFO ] 2025-02-24 22:59:44.497 [main] Hooks - =================================================================
+[INFO ] 2025-02-24 22:59:44.580 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-24 22:59:44.955 [main] Hooks - Driver Closed
+[INFO ] 2025-02-24 22:59:44.956 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 22:59:44.957 [main] Hooks - Title of your scenario outline Status - FAILED
+[INFO ] 2025-02-24 22:59:44.957 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 22:59:46.994 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-24 22:59:49.802 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-24 22:59:49.802 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-24 22:59:49.808 [main] Hooks - ================================================================
+[INFO ] 2025-02-24 22:59:49.809 [main] Hooks - Scenario Title: Title of your scenario outline
+[INFO ] 2025-02-24 22:59:49.809 [main] Hooks - =================================================================
+[INFO ] 2025-02-24 22:59:49.883 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-24 22:59:50.268 [main] Hooks - Driver Closed
+[INFO ] 2025-02-24 22:59:50.269 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 22:59:50.269 [main] Hooks - Title of your scenario outline Status - FAILED
+[INFO ] 2025-02-24 22:59:50.270 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 23:05:48.778 [main] Hooks - ================================================================
+[INFO ] 2025-02-24 23:05:48.788 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-24 23:05:48.789 [main] Hooks - =================================================================
+[INFO ] 2025-02-24 23:05:48.803 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-24 23:05:51.341 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-24 23:05:51.342 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-24 23:05:51.376 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-24 23:05:51.377 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-24 23:05:51.420 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-24 23:05:52.287 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-24 23:05:52.821 [main] Hooks - Driver Closed
+[INFO ] 2025-02-24 23:05:52.824 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 23:05:52.828 [main] Hooks - 01_Validate User accesses the registration web page Status - UNDEFINED
+[INFO ] 2025-02-24 23:05:52.829 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 23:15:45.522 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-24 23:15:48.689 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-24 23:15:48.690 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-24 23:15:48.759 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-24 23:15:48.760 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-24 23:15:48.838 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-24 23:15:48.864 [main] Hooks - ================================================================
+[INFO ] 2025-02-24 23:15:48.866 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-24 23:15:48.867 [main] Hooks - =================================================================
+[INFO ] 2025-02-24 23:15:53.273 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-24 23:15:54.327 [main] Hooks - Driver Closed
+[INFO ] 2025-02-24 23:15:54.329 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 23:15:54.336 [main] Hooks - 01_Validate User accesses the registration web page Status - PASSED
+[INFO ] 2025-02-24 23:15:54.337 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-24 23:49:29.853 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-24 23:49:29.858 [main] StepNameListener - Executing step: Navigate to the registration page using the provided URL
+[INFO ] 2025-02-24 23:49:29.859 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-24 23:49:29.865 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-24 23:49:29.865 [main] StepNameListener - Executing step: Click the link
+[INFO ] 2025-02-24 23:49:29.866 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-24 23:49:29.870 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-24 23:49:29.871 [main] StepNameListener - Executing step: clicking on the link it should redirect the user to the registration web page.
+[INFO ] 2025-02-24 23:49:29.871 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-24 23:49:29.875 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-24 23:49:29.875 [main] StepNameListener - Executing step: Insert all the  valid credentials.
+[INFO ] 2025-02-24 23:49:29.875 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-24 23:49:29.881 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-24 23:49:29.881 [main] StepNameListener - Executing step: Click on the attached link and it redirect them to the login page.
+[INFO ] 2025-02-24 23:49:29.882 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-24 23:49:31.295 [main] FileSystemFontProvider - New fonts found, font cache will be re-built
+[WARN ] 2025-02-24 23:49:31.295 [main] FileSystemFontProvider - Building on-disk font cache, this may take a while
+[WARN ] 2025-02-24 23:49:32.347 [main] FileSystemFontProvider - Finished building on-disk font cache, found 360 fonts
+[INFO ] 2025-02-25 00:06:47.354 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 00:06:47.360 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-25 00:06:47.360 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 00:06:47.367 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 00:06:49.669 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-25 00:06:49.669 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 00:06:49.693 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 00:06:49.693 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 00:06:49.724 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 00:06:49.733 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:06:49.733 [main] StepNameListener - Executing step: Navigate to the registration page using the provided URL
+[INFO ] 2025-02-25 00:06:49.733 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.132 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:06:50.132 [main] StepNameListener - Executing step: Click the link
+[INFO ] 2025-02-25 00:06:50.132 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.346 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:06:50.346 [main] StepNameListener - Executing step: clicking on the link it should redirect the user to the registration web page.
+[INFO ] 2025-02-25 00:06:50.346 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.553 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:06:50.553 [main] StepNameListener - Executing step: Insert all the  valid credentials.
+[INFO ] 2025-02-25 00:06:50.553 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.740 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:06:50.740 [main] StepNameListener - Executing step: Click on the attached link and it redirect them to the login page.
+[INFO ] 2025-02-25 00:06:50.741 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.916 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.919 [main] Hooks - 01_Validate User accesses the registration web page Status - PASSED
+[INFO ] 2025-02-25 00:06:50.919 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 00:06:50.944 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-25 00:06:51.027 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2025-02-25 00:06:51.314 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 00:09:16.667 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 00:09:16.673 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-25 00:09:16.673 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 00:09:16.686 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 00:09:19.051 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-25 00:09:19.051 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 00:09:19.073 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 00:09:19.073 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 00:09:19.104 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 00:09:19.115 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:09:19.115 [main] StepNameListener - Executing step: Navigate to the registration page using the provided URL
+[INFO ] 2025-02-25 00:09:19.115 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:19.520 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:09:19.520 [main] StepNameListener - Executing step: Click the link
+[INFO ] 2025-02-25 00:09:19.520 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:19.742 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:09:19.743 [main] StepNameListener - Executing step: clicking on the link it should redirect the user to the registration web page.
+[INFO ] 2025-02-25 00:09:19.743 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:19.943 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:09:19.943 [main] StepNameListener - Executing step: Insert all the  valid credentials.
+[INFO ] 2025-02-25 00:09:19.943 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:20.111 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 00:09:20.112 [main] StepNameListener - Executing step: Click on the attached link and it redirect them to the login page.
+[INFO ] 2025-02-25 00:09:20.112 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:20.280 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:20.282 [main] Hooks - 01_Validate User accesses the registration web page Status - PASSED
+[INFO ] 2025-02-25 00:09:20.282 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 00:09:20.307 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 00:09:20.308 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 01:11:04.561 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 01:11:04.581 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-25 01:11:04.582 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 01:11:04.604 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 01:11:07.595 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-25 01:11:07.596 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 01:11:07.637 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 01:11:07.638 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 01:11:07.686 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 01:11:07.704 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:07.704 [main] StepNameListener - Executing step: Navigate to the registration page using the provided URL
+[INFO ] 2025-02-25 01:11:07.705 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:08.372 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 01:11:08.383 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
+[INFO ] 2025-02-25 01:11:08.384 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 01:11:08.406 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 01:11:08.722 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:08.723 [main] StepNameListener - Executing step: Click the link
+[INFO ] 2025-02-25 01:11:08.724 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:09.208 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:09.209 [main] StepNameListener - Executing step: clicking on the link it should redirect the user to the registration web page.
+[INFO ] 2025-02-25 01:11:09.209 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:09.715 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:09.715 [main] StepNameListener - Executing step: Insert all the  valid credentials.
+[INFO ] 2025-02-25 01:11:09.716 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:10.165 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:10.165 [main] StepNameListener - Executing step: Click on the attached link and it redirect them to the login page.
+[INFO ] 2025-02-25 01:11:10.165 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:10.755 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 01:11:10.756 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 01:11:10.760 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:10.768 [main] Hooks - 01_Validate User accesses the registration web page Status - PASSED
+[INFO ] 2025-02-25 01:11:10.769 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:11.401 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-25 01:11:11.402 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 01:11:11.437 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 01:11:11.437 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 01:11:11.480 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 01:11:11.499 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:11.500 [main] StepNameListener - Executing step: Navigate to the registration page using the provided URL
+[INFO ] 2025-02-25 01:11:11.503 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:12.257 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:12.258 [main] StepNameListener - Executing step: Click the link
+[INFO ] 2025-02-25 01:11:12.258 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:12.575 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:12.575 [main] StepNameListener - Executing step: clicking on the link it should redirect the user to the registration web page.
+[INFO ] 2025-02-25 01:11:12.576 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:12.880 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:12.881 [main] StepNameListener - Executing step: Insert all the  valid credentials.
+[INFO ] 2025-02-25 01:11:12.881 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:13.153 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 01:11:13.154 [main] StepNameListener - Executing step: Click on the attached link and it redirect them to the login page.
+[INFO ] 2025-02-25 01:11:13.154 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:13.482 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 01:11:13.483 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 01:11:13.488 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 01:11:13.495 [main] Hooks - 01_Validate User accesses the registration web page Status - PASSED
+[INFO ] 2025-02-25 01:11:13.495 [main] Hooks - ------------------------------------------------------------------------------------------------------
