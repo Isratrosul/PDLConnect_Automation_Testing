@@ -24,7 +24,7 @@ public class Driver {
 
 
 
-	public static WebDriver getDriver() {
+	public static WebDriver getDriver( ) {
 		
 		if (driver == null) {
 			switch (ConfigurationReader.getProperty("browser")) {
@@ -58,5 +58,10 @@ public class Driver {
 			driver = null;
 		}
 	}
+
+
+
+		
+	
 	
 }
