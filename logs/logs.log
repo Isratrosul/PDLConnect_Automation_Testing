@@ -1266,6 +1266,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-02 16:11:30.387 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - running DEF tag Status - PASSED
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream
 [INFO ] 2025-02-24 22:59:35.189 [main] Hooks - Running Hooks before every scenario
 [INFO ] 2025-02-24 22:59:37.928 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
 [INFO ] 2025-02-24 22:59:37.928 [main] CommonMethods - Wait for Web Page to load completely
@@ -1377,6 +1378,50 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-02-25 00:06:50.919 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-02-25 00:06:50.944 [main] Hooks - CLosing the Driver
 [WARN ] 2025-02-25 00:06:51.027 [AsyncHttpClient-1-4] WebSocketHandler - onError
+=======
+[INFO ] 2025-02-25 18:25:26.130 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 18:25:26.137 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 18:25:26.137 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 18:25:26.142 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 18:25:27.010 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 18:25:27.011 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 18:25:27.028 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 18:25:27.028 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 18:25:27.441 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 18:25:27.758 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 18:25:28.483 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 18:25:28.483 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:25:28.485 [main] Hooks - 07_validate static header visibility Status - UNDEFINED
+[INFO ] 2025-02-25 18:25:28.485 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:37:12.408 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 18:37:12.411 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 18:37:12.411 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 18:37:12.416 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 18:37:13.360 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 18:37:13.360 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 18:37:13.383 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 18:37:13.383 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 18:37:13.742 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 18:37:14.898 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 18:37:15.418 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 18:37:15.418 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:37:15.420 [main] Hooks - 07_validate static header visibility Status - PASSED
+[INFO ] 2025-02-25 18:37:15.420 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:40:25.104 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 18:40:25.984 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 18:40:25.985 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 18:40:26.005 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 18:40:26.005 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 18:40:26.360 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 18:40:26.367 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 18:40:26.368 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 18:40:26.368 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 18:40:27.386 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:40:27.389 [main] Hooks - 07_validate static header visibility Status - PASSED
+[INFO ] 2025-02-25 18:40:27.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:40:27.411 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-25 18:40:27.856 [AsyncHttpClient-1-4] WebSocketHandler - onError
+>>>>>>> Stashed changes
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -1392,6 +1437,7 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+<<<<<<< Updated upstream
 [INFO ] 2025-02-25 00:06:51.314 [main] Hooks - Driver Closed
 [INFO ] 2025-02-25 00:09:16.667 [main] Hooks - ================================================================
 [INFO ] 2025-02-25 00:09:16.673 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
@@ -4151,6 +4197,49 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-02-28 11:22:39.767 [main] StepNameListener - ---------------------------------------------------------------------
 [INFO ] 2025-02-28 11:22:40.076 [main] Hooks - CLosing the Driver
 [WARN ] 2025-02-28 11:22:40.190 [AsyncHttpClient-1-4] WebSocketHandler - onError
+=======
+[INFO ] 2025-02-25 18:40:28.030 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 18:42:13.778 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 18:42:13.782 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 18:42:13.782 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 18:42:13.786 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 18:42:14.744 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 18:42:14.744 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 18:42:14.761 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 18:42:14.762 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 18:42:15.149 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 18:42:16.326 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 18:42:16.936 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 18:42:16.938 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:42:16.942 [main] Hooks - 07_validate static header visibility Status - PASSED
+[INFO ] 2025-02-25 18:42:16.942 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:02.167 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 18:43:02.177 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 18:43:02.177 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 18:43:02.190 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 18:43:03.209 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 18:43:03.209 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 18:43:03.232 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 18:43:03.232 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 18:43:03.643 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 18:43:03.652 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 18:43:03.653 [main] StepNameListener - Executing step: Navigate to registration static header  URL link .
+[INFO ] 2025-02-25 18:43:03.653 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:03.890 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 18:43:03.890 [main] StepNameListener - Executing step: Scroll down the page to check if the static header remains visible at the top
+[INFO ] 2025-02-25 18:43:03.890 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:04.428 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 18:43:04.428 [main] StepNameListener - Executing step: Ensure that the header is present on the homepage and other pages.
+[INFO ] 2025-02-25 18:43:04.428 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:04.561 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 18:43:04.561 [main] StepNameListener - Executing step: Check that the header does not disappear when scrolling down the page.
+[INFO ] 2025-02-25 18:43:04.561 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:04.702 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 18:43:04.702 [main] StepNameListener - Executing step: Ensure  that the header elements (logo, menu, etc.) are visible and correctly aligned
+[INFO ] 2025-02-25 18:43:04.702 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:04.875 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-25 18:43:05.280 [AsyncHttpClient-1-4] WebSocketHandler - onError
+>>>>>>> Stashed changes
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -4166,6 +4255,7 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+<<<<<<< Updated upstream
 [INFO ] 2025-02-28 11:22:40.537 [main] Hooks - Driver Closed
 [INFO ] 2025-02-28 11:22:40.541 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-02-28 11:22:40.547 [main] Hooks - 03_Validate User registers for an account Status - PASSED
@@ -9837,3 +9927,350 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-03-06 21:38:49.056 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-03-06 21:38:49.062 [main] Hooks - 02_validate User fills out mandatory fields incorrectly Status - PASSED
 [INFO ] 2025-03-06 21:38:49.062 [main] Hooks - ------------------------------------------------------------------------------------------------------
+=======
+[INFO ] 2025-02-25 18:43:05.487 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 18:43:05.488 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 18:43:05.491 [main] Hooks - 07_validate static header visibility Status - PASSED
+[INFO ] 2025-02-25 18:43:05.491 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[WARN ] 2025-02-25 18:43:06.308 [main] FileSystemFontProvider - New fonts found, font cache will be re-built
+[WARN ] 2025-02-25 18:43:06.308 [main] FileSystemFontProvider - Building on-disk font cache, this may take a while
+[WARN ] 2025-02-25 18:43:08.225 [main] FileSystemFontProvider - Finished building on-disk font cache, found 367 fonts
+[INFO ] 2025-02-25 19:08:48.212 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 19:08:49.303 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 19:08:49.304 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 19:08:49.329 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 19:08:49.329 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 19:08:49.417 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 19:08:49.422 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 19:08:49.423 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 19:08:49.423 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 19:08:50.918 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:08:50.920 [main] Hooks - 07_validate static header visibility Status - PASSED
+[INFO ] 2025-02-25 19:08:50.921 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:08:50.945 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 19:08:51.503 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 19:12:05.200 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 19:12:05.201 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 19:12:05.202 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 19:12:05.207 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 19:12:06.320 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 19:12:06.321 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 19:12:06.343 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 19:12:06.345 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 19:12:06.670 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 19:12:07.621 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:12:07.623 [main] Hooks - 07_validate static header visibility Status - UNDEFINED
+[INFO ] 2025-02-25 19:12:07.623 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:12:07.643 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 19:12:08.203 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 19:14:34.352 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 19:14:35.485 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 19:14:35.485 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 19:14:35.503 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 19:14:35.503 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 19:14:35.571 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 19:14:35.575 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 19:14:35.576 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 19:14:35.576 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 19:14:36.937 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 19:14:37.527 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 19:14:37.527 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:14:37.529 [main] Hooks - 07_validate static header visibility Status - UNDEFINED
+[INFO ] 2025-02-25 19:14:37.529 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:31.856 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 19:15:31.861 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 19:15:31.861 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 19:15:31.870 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 19:15:32.972 [main] Hooks - *URL Lunched from hooks : https://ealscrum.atlassian.net/wiki/spaces/BI/pages/75006209/B35_BRS-Registration+Page+-+Static+Header+-+YS00004#%5BinlineCard%5D
+[INFO ] 2025-02-25 19:15:32.972 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 19:15:32.992 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 19:15:32.992 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 19:15:33.319 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 19:15:33.325 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:15:33.326 [main] StepNameListener - Executing step: Navigate to registration static header  URL link .
+[INFO ] 2025-02-25 19:15:33.326 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:33.506 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:15:33.507 [main] StepNameListener - Executing step: Scroll down the page to check if the static header remains visible at the top
+[INFO ] 2025-02-25 19:15:33.507 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:33.671 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:15:33.671 [main] StepNameListener - Executing step: Ensure that the header is present on the homepage and other pages.
+[INFO ] 2025-02-25 19:15:33.671 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:34.130 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:15:34.130 [main] StepNameListener - Executing step: Check that the header does not disappear when scrolling down the page.
+[INFO ] 2025-02-25 19:15:34.130 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:34.264 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:15:34.264 [main] StepNameListener - Executing step: Ensure  that the header elements (logo, menu, etc.) are visible and correctly aligned
+[INFO ] 2025-02-25 19:15:34.264 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:34.429 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-25 19:15:34.798 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2025-02-25 19:15:34.958 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 19:15:34.961 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:15:34.962 [main] Hooks - 07_validate static header visibility Status - UNDEFINED
+[INFO ] 2025-02-25 19:15:34.962 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:17:58.801 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 19:18:00.564 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-25 19:18:00.564 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 19:18:00.581 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 19:18:00.581 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 19:18:00.608 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 19:18:00.614 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 19:18:00.614 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 19:18:00.614 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 19:18:00.619 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:18:00.619 [main] StepNameListener - Executing step: Navigate to registration static header  URL link .
+[INFO ] 2025-02-25 19:18:00.619 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:00.832 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:18:00.832 [main] StepNameListener - Executing step: Scroll down the page to check if the static header remains visible at the top
+[INFO ] 2025-02-25 19:18:00.832 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:00.967 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:18:00.967 [main] StepNameListener - Executing step: Ensure that the header is present on the homepage and other pages.
+[INFO ] 2025-02-25 19:18:00.967 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:01.086 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:18:01.086 [main] StepNameListener - Executing step: Check that the header does not disappear when scrolling down the page.
+[INFO ] 2025-02-25 19:18:01.086 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:01.196 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 19:18:01.197 [main] StepNameListener - Executing step: Ensure  that the header elements (logo, menu, etc.) are visible and correctly aligned
+[INFO ] 2025-02-25 19:18:01.197 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:01.308 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:01.311 [main] Hooks - 07_validate static header visibility Status - UNDEFINED
+[INFO ] 2025-02-25 19:18:01.311 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:18:01.331 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 19:18:01.927 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 19:37:59.961 [main] Hooks - ================================================================
+[INFO ] 2025-02-25 19:37:59.964 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-25 19:37:59.965 [main] Hooks - =================================================================
+[INFO ] 2025-02-25 19:37:59.970 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-25 19:38:01.745 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-25 19:38:01.745 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-25 19:38:01.761 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-25 19:38:01.763 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-25 19:38:01.791 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-25 19:38:02.504 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-25 19:38:02.982 [main] Hooks - Driver Closed
+[INFO ] 2025-02-25 19:38:02.982 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 19:38:02.984 [main] Hooks - 07_validate static header visibility Status - UNDEFINED
+[INFO ] 2025-02-25 19:38:02.984 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-25 20:07:01.591 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 20:07:01.593 [main] StepNameListener - Executing step: Navigate to registration static header  URL link .
+[INFO ] 2025-02-25 20:07:01.593 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 20:07:01.596 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 20:07:01.596 [main] StepNameListener - Executing step: Scroll down the page to check if the static header remains visible at the top
+[INFO ] 2025-02-25 20:07:01.597 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 20:07:01.601 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 20:07:01.602 [main] StepNameListener - Executing step: Ensure that the header is present on the homepage and other pages.
+[INFO ] 2025-02-25 20:07:01.602 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 20:07:01.607 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 20:07:01.607 [main] StepNameListener - Executing step: Check that the header does not disappear when scrolling down the page.
+[INFO ] 2025-02-25 20:07:01.608 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-25 20:07:01.612 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-02-25 20:07:01.612 [main] StepNameListener - Executing step: Ensure  that the header elements (logo, menu, etc.) are visible and correctly aligned
+[INFO ] 2025-02-25 20:07:01.612 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-02-27 09:12:48.440 [main] Hooks - ================================================================
+[INFO ] 2025-02-27 09:12:48.442 [main] Hooks - Scenario Title: 07_validate static header visibility
+[INFO ] 2025-02-27 09:12:48.442 [main] Hooks - =================================================================
+[INFO ] 2025-02-27 09:12:48.443 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-27 09:12:50.300 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-27 09:12:50.301 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-27 09:12:50.311 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-27 09:12:50.312 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-27 09:12:50.329 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-27 09:12:50.930 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-27 09:12:51.278 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2025-02-27 09:12:51.448 [main] Hooks - Driver Closed
+[INFO ] 2025-02-27 09:12:51.448 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 09:12:51.452 [main] Hooks - 07_validate static header visibility Status - PASSED
+[INFO ] 2025-02-27 09:12:51.454 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:34:42.299 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-27 18:34:44.132 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-27 18:34:44.134 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-27 18:34:44.157 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-27 18:34:44.157 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-27 18:34:44.183 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-27 18:34:44.187 [main] Hooks - ================================================================
+[INFO ] 2025-02-27 18:34:44.187 [main] Hooks - Scenario Title: 08_validate switching currency
+[INFO ] 2025-02-27 18:34:44.187 [main] Hooks - =================================================================
+[INFO ] 2025-02-27 18:34:44.564 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-27 18:34:44.998 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2025-02-27 18:34:45.196 [main] Hooks - Driver Closed
+[INFO ] 2025-02-27 18:34:45.198 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:34:45.199 [main] Hooks - 08_validate switching currency Status - UNDEFINED
+[INFO ] 2025-02-27 18:34:45.199 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:35:07.398 [main] Hooks - ================================================================
+[INFO ] 2025-02-27 18:35:07.402 [main] Hooks - Scenario Title: 08_validate switching currency
+[INFO ] 2025-02-27 18:35:07.403 [main] Hooks - =================================================================
+[INFO ] 2025-02-27 18:35:07.409 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-27 18:35:09.182 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-27 18:35:09.182 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-27 18:35:09.196 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-27 18:35:09.197 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-27 18:35:09.220 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-27 18:35:09.451 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:35:09.452 [main] Hooks - 08_validate switching currency Status - UNDEFINED
+[INFO ] 2025-02-27 18:35:09.452 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:35:09.467 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-27 18:35:09.973 [main] Hooks - Driver Closed
+[INFO ] 2025-02-27 18:58:48.887 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-27 18:58:50.631 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-27 18:58:50.631 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-27 18:58:50.648 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-27 18:58:50.648 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-27 18:58:50.669 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-27 18:58:50.674 [main] Hooks - ================================================================
+[INFO ] 2025-02-27 18:58:50.674 [main] Hooks - Scenario Title: 07_validate Static Header Visibility
+[INFO ] 2025-02-27 18:58:50.674 [main] Hooks - =================================================================
+[INFO ] 2025-02-27 18:58:51.052 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:58:51.053 [main] Hooks - 07_validate Static Header Visibility Status - UNDEFINED
+[INFO ] 2025-02-27 18:58:51.053 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:58:51.067 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-27 18:58:51.559 [main] Hooks - Driver Closed
+[INFO ] 2025-02-27 18:58:52.609 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-27 18:58:54.501 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-27 18:58:54.501 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-27 18:58:54.514 [main] Hooks - ================================================================
+[INFO ] 2025-02-27 18:58:54.514 [main] Hooks - Scenario Title: 08_validate switching currency
+[INFO ] 2025-02-27 18:58:54.514 [main] Hooks - =================================================================
+[INFO ] 2025-02-27 18:58:54.516 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:58:54.516 [main] Hooks - 08_validate switching currency Status - FAILED
+[INFO ] 2025-02-27 18:58:54.516 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-27 18:58:54.555 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-27 18:58:55.171 [main] Hooks - Driver Closed
+[INFO ] 2025-02-28 12:58:24.840 [main] Hooks - ================================================================
+[INFO ] 2025-02-28 12:58:24.842 [main] Hooks - Scenario Title: 07_validate Static Header Visibility
+[INFO ] 2025-02-28 12:58:24.842 [main] Hooks - =================================================================
+[INFO ] 2025-02-28 12:58:24.844 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-28 12:58:26.627 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-28 12:58:26.627 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-28 12:58:26.639 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-02-28 12:58:26.639 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-02-28 12:58:26.655 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-02-28 12:58:26.994 [main] Hooks - CLosing the Driver
+[WARN ] 2025-02-28 12:58:27.283 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2025-02-28 12:58:27.388 [main] Hooks - Driver Closed
+[INFO ] 2025-02-28 12:58:27.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-28 12:58:27.390 [main] Hooks - 07_validate Static Header Visibility Status - UNDEFINED
+[INFO ] 2025-02-28 12:58:27.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-28 12:58:28.347 [main] Hooks - ================================================================
+[INFO ] 2025-02-28 12:58:28.347 [main] Hooks - Scenario Title: 08_validate switching currency
+[INFO ] 2025-02-28 12:58:28.348 [main] Hooks - =================================================================
+[INFO ] 2025-02-28 12:58:28.348 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-02-28 12:58:30.107 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-02-28 12:58:30.107 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-02-28 12:58:30.146 [main] Hooks - CLosing the Driver
+[INFO ] 2025-02-28 12:58:30.510 [main] Hooks - Driver Closed
+[INFO ] 2025-02-28 12:58:30.510 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-02-28 12:58:30.511 [main] Hooks - 08_validate switching currency Status - FAILED
+[INFO ] 2025-02-28 12:58:30.511 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:16:10.294 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-04 19:16:12.197 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-04 19:16:12.197 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-04 19:16:12.214 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-04 19:16:12.215 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-04 19:16:12.243 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-04 19:16:12.247 [main] Hooks - ================================================================
+[INFO ] 2025-03-04 19:16:12.247 [main] Hooks - Scenario Title: 07_Select "Yes" in the Newsletter subscription
+[INFO ] 2025-03-04 19:16:12.247 [main] Hooks - =================================================================
+[INFO ] 2025-03-04 19:16:12.621 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-04 19:16:13.228 [main] Hooks - Driver Closed
+[INFO ] 2025-03-04 19:16:13.228 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:16:13.231 [main] Hooks - 07_Select "Yes" in the Newsletter subscription Status - UNDEFINED
+[INFO ] 2025-03-04 19:16:13.233 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:16:14.551 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-04 19:16:16.334 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-04 19:16:16.335 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-04 19:16:16.347 [main] Hooks - ================================================================
+[INFO ] 2025-03-04 19:16:16.348 [main] Hooks - Scenario Title: 08_validate switching currency
+[INFO ] 2025-03-04 19:16:16.348 [main] Hooks - =================================================================
+[INFO ] 2025-03-04 19:16:16.391 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-04 19:16:17.097 [main] Hooks - Driver Closed
+[INFO ] 2025-03-04 19:16:17.097 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:16:17.097 [main] Hooks - 08_validate switching currency Status - FAILED
+[INFO ] 2025-03-04 19:16:17.097 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:17:24.331 [main] Hooks - ================================================================
+[INFO ] 2025-03-04 19:17:24.335 [main] Hooks - Scenario Title: 07_Select "Yes" in the Newsletter subscription
+[INFO ] 2025-03-04 19:17:24.335 [main] Hooks - =================================================================
+[INFO ] 2025-03-04 19:17:24.338 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-04 19:17:26.165 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-04 19:17:26.165 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-04 19:17:26.185 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-04 19:17:26.185 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-04 19:17:26.213 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-04 19:17:26.608 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-04 19:17:27.289 [main] Hooks - Driver Closed
+[INFO ] 2025-03-04 19:17:27.290 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:17:27.292 [main] Hooks - 07_Select "Yes" in the Newsletter subscription Status - UNDEFINED
+[INFO ] 2025-03-04 19:17:27.292 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:50:14.150 [main] Hooks - ================================================================
+[INFO ] 2025-03-04 19:50:14.152 [main] Hooks - Scenario Title: 014_Select "Yes" in the Newsletter subscription
+[INFO ] 2025-03-04 19:50:14.153 [main] Hooks - =================================================================
+[INFO ] 2025-03-04 19:50:14.155 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-04 19:50:16.064 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-04 19:50:16.064 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-04 19:50:16.081 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-04 19:50:16.081 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-04 19:50:16.103 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-04 19:50:16.798 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:50:16.800 [main] Hooks - 014_Select "Yes" in the Newsletter subscription Status - PASSED
+[INFO ] 2025-03-04 19:50:16.800 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-04 19:50:16.817 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-04 19:50:17.302 [main] Hooks - Driver Closed
+>>>>>>> Stashed changes
