@@ -1266,3 +1266,559 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-02 16:11:30.387 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - running DEF tag Status - PASSED
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:54:05.114 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:54:05.123 [main] Hooks - Scenario Title: Verify Recurring Payments Option
+[INFO ] 2025-03-10 13:54:05.123 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:54:05.133 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:54:09.994 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2025-03-10 13:54:09.995 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:54:12.347 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 13:54:12.347 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 13:54:12.767 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 13:54:15.031 [main] Hooks - CLosing the Driver
+[WARN ] 2025-03-10 13:54:15.212 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[INFO ] 2025-03-10 13:54:15.501 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:54:15.502 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:54:15.506 [main] Hooks - Verify Recurring Payments Option Status - UNDEFINED
+[INFO ] 2025-03-10 13:54:15.506 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:54:18.167 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:54:18.167 [main] Hooks - Scenario Title: Verify Reward Points Option
+[INFO ] 2025-03-10 13:54:18.168 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:54:18.168 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:54:22.919 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2025-03-10 13:54:22.920 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:54:24.708 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:54:24.715 [main] Hooks - Verify Reward Points Option Status - FAILED
+[INFO ] 2025-03-10 13:54:24.725 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:55:42.646 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:55:47.055 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2025-03-10 13:55:47.055 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:55:48.385 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 13:55:48.386 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 13:55:48.934 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 13:55:48.947 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:55:48.948 [main] Hooks - Scenario Title: Verify Recurring Payments Option
+[INFO ] 2025-03-10 13:55:48.948 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:55:49.998 [main] Hooks - CLosing the Driver
+[WARN ] 2025-03-10 13:55:50.151 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[INFO ] 2025-03-10 13:55:50.379 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:55:50.379 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:55:50.385 [main] Hooks - Verify Recurring Payments Option Status - UNDEFINED
+[INFO ] 2025-03-10 13:55:50.386 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:55:53.312 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:55:54.700 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2025-03-10 13:55:54.701 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:55:54.722 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:55:54.722 [main] Hooks - Scenario Title: Verify Reward Points Option
+[INFO ] 2025-03-10 13:55:54.723 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:55:54.767 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:55:54.767 [main] Hooks - Verify Reward Points Option Status - FAILED
+[INFO ] 2025-03-10 13:55:54.768 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:32.364 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:57:32.375 [main] Hooks - Scenario Title: Verify Recurring Payments Option
+[INFO ] 2025-03-10 13:57:32.375 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:57:32.390 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:57:35.014 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 13:57:35.014 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:57:35.074 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 13:57:35.075 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 13:57:35.121 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 13:57:35.536 [main] Hooks - CLosing the Driver
+[WARN ] 2025-03-10 13:57:35.669 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[INFO ] 2025-03-10 13:57:35.812 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:57:35.814 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:35.822 [main] Hooks - Verify Recurring Payments Option Status - UNDEFINED
+[INFO ] 2025-03-10 13:57:35.822 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:38.391 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:57:38.392 [main] Hooks - Scenario Title: Verify Reward Points Option
+[INFO ] 2025-03-10 13:57:38.392 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:57:38.393 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:57:40.895 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 13:57:40.895 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:57:41.033 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 13:57:41.300 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:57:41.301 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:41.301 [main] Hooks - Verify Reward Points Option Status - FAILED
+[INFO ] 2025-03-10 13:57:41.302 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:43.826 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:57:43.827 [main] Hooks - Scenario Title: Verify Returns Option
+[INFO ] 2025-03-10 13:57:43.828 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:57:43.828 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:57:46.460 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 13:57:46.461 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:57:46.679 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 13:57:46.926 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:57:46.927 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:46.927 [main] Hooks - Verify Returns Option Status - FAILED
+[INFO ] 2025-03-10 13:57:46.928 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:49.375 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:57:49.376 [main] Hooks - Scenario Title: Verify Transactions Option
+[INFO ] 2025-03-10 13:57:49.376 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:57:49.376 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:57:51.976 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 13:57:51.977 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:57:52.076 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 13:57:52.320 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:57:52.321 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:52.322 [main] Hooks - Verify Transactions Option Status - FAILED
+[INFO ] 2025-03-10 13:57:52.322 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:54.864 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 13:57:54.865 [main] Hooks - Scenario Title: Verify Newsletter Option
+[INFO ] 2025-03-10 13:57:54.866 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 13:57:54.867 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 13:57:58.170 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 13:57:58.176 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 13:57:58.319 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 13:57:58.594 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 13:57:58.594 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 13:57:58.595 [main] Hooks - Verify Newsletter Option Status - FAILED
+[INFO ] 2025-03-10 13:57:58.596 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:17.388 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 14:02:20.125 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 14:02:20.126 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 14:02:20.159 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 14:02:20.160 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 14:02:20.196 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 14:02:20.216 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 14:02:20.216 [main] Hooks - Scenario Title: Verify Recurring Payments Option
+[INFO ] 2025-03-10 14:02:20.217 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 14:02:20.228 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.229 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:02:20.229 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.573 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.573 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:02:20.574 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.580 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.581 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:02:20.581 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.587 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.587 [main] StepNameListener - Executing step: The Recurring Payments option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:20.587 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.591 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.592 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:20.593 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.598 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.598 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:20.599 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.605 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.605 [main] StepNameListener - Executing step: The user should be redirected to the recurring payments page
+[INFO ] 2025-03-10 14:02:20.606 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.610 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.610 [main] StepNameListener - Executing step: The user is on the recurring payments page
+[INFO ] 2025-03-10 14:02:20.610 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.614 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.614 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option
+[INFO ] 2025-03-10 14:02:20.614 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.618 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.619 [main] StepNameListener - Executing step: The Recurring Payments option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:02:20.619 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.622 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.623 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option
+[INFO ] 2025-03-10 14:02:20.623 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.626 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.626 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:20.628 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.635 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:20.635 [main] StepNameListener - Executing step: The recurring payments page should load properly
+[INFO ] 2025-03-10 14:02:20.635 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.655 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 14:02:20.941 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 14:02:20.943 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:20.949 [main] Hooks - Verify Recurring Payments Option Status - PENDING
+[INFO ] 2025-03-10 14:02:20.949 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:23.617 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 14:02:26.114 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 14:02:26.117 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 14:02:26.178 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 14:02:26.179 [main] Hooks - Scenario Title: Verify Reward Points Option
+[INFO ] 2025-03-10 14:02:26.179 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 14:02:26.181 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.181 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:02:26.181 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.191 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.193 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:02:26.193 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.222 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.223 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:02:26.223 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.249 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.254 [main] StepNameListener - Executing step: The Reward Points option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:26.254 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.257 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.257 [main] StepNameListener - Executing step: The user clicks on the Reward Points option in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:26.257 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.259 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.260 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:26.260 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.269 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.299 [main] StepNameListener - Executing step: The user should be redirected to the reward points page
+[INFO ] 2025-03-10 14:02:26.307 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.313 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.314 [main] StepNameListener - Executing step: The user is on the reward points page
+[INFO ] 2025-03-10 14:02:26.314 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.317 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.317 [main] StepNameListener - Executing step: The user clicks on the Reward Points option
+[INFO ] 2025-03-10 14:02:26.318 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.321 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.321 [main] StepNameListener - Executing step: The Reward Points option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:02:26.321 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.324 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.324 [main] StepNameListener - Executing step: The user clicks on the Reward Points option
+[INFO ] 2025-03-10 14:02:26.324 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.328 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.328 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:26.328 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.330 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:26.331 [main] StepNameListener - Executing step: The reward points page should load properly
+[INFO ] 2025-03-10 14:02:26.331 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.475 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 14:02:26.747 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 14:02:26.750 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:26.750 [main] Hooks - Verify Reward Points Option Status - FAILED
+[INFO ] 2025-03-10 14:02:26.750 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:29.323 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 14:02:31.815 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 14:02:31.818 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 14:02:31.845 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 14:02:31.846 [main] Hooks - Scenario Title: Verify Returns Option
+[INFO ] 2025-03-10 14:02:31.846 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 14:02:31.848 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.848 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:02:31.848 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.851 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.851 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:02:31.852 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.863 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.863 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:02:31.863 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.875 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.875 [main] StepNameListener - Executing step: The Returns option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:31.878 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.881 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.881 [main] StepNameListener - Executing step: The user clicks on the Returns option in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:31.881 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.887 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.887 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:31.887 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.892 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.892 [main] StepNameListener - Executing step: The user should be redirected to the returns page
+[INFO ] 2025-03-10 14:02:31.893 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.948 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.950 [main] StepNameListener - Executing step: The user is on the returns page
+[INFO ] 2025-03-10 14:02:31.964 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.977 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.978 [main] StepNameListener - Executing step: The user clicks on the Returns option
+[INFO ] 2025-03-10 14:02:31.978 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.984 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.986 [main] StepNameListener - Executing step: The Returns option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:02:31.986 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.990 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.993 [main] StepNameListener - Executing step: The user clicks on the Returns option
+[INFO ] 2025-03-10 14:02:31.993 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.996 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.996 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:31.996 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:31.998 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:31.999 [main] StepNameListener - Executing step: The returns page should load properly
+[INFO ] 2025-03-10 14:02:31.999 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:32.089 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 14:02:32.353 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 14:02:32.355 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:32.355 [main] Hooks - Verify Returns Option Status - FAILED
+[INFO ] 2025-03-10 14:02:32.355 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:34.622 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 14:02:37.156 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 14:02:37.156 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 14:02:37.164 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 14:02:37.170 [main] Hooks - Scenario Title: Verify Transactions Option
+[INFO ] 2025-03-10 14:02:37.171 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 14:02:37.173 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.173 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:02:37.173 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.176 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.176 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:02:37.176 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.200 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.201 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:02:37.201 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.209 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.209 [main] StepNameListener - Executing step: The Transactions option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:37.209 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.213 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.213 [main] StepNameListener - Executing step: The user clicks on the Transactions option in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:37.214 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.216 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.216 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:37.216 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.219 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.220 [main] StepNameListener - Executing step: The user should be redirected to the transactions page
+[INFO ] 2025-03-10 14:02:37.220 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.224 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.224 [main] StepNameListener - Executing step: The user is on the transactions page
+[INFO ] 2025-03-10 14:02:37.231 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.243 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.244 [main] StepNameListener - Executing step: The user clicks on the Transactions option
+[INFO ] 2025-03-10 14:02:37.244 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.247 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.248 [main] StepNameListener - Executing step: The Transactions option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:02:37.248 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.256 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.256 [main] StepNameListener - Executing step: The user clicks on the Transactions option
+[INFO ] 2025-03-10 14:02:37.256 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.258 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.258 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:37.258 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.260 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:37.260 [main] StepNameListener - Executing step: The transactions page should load properly
+[INFO ] 2025-03-10 14:02:37.260 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.468 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 14:02:37.703 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 14:02:37.705 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:37.705 [main] Hooks - Verify Transactions Option Status - FAILED
+[INFO ] 2025-03-10 14:02:37.706 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:40.208 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 14:02:43.899 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 14:02:43.902 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 14:02:43.914 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 14:02:43.915 [main] Hooks - Scenario Title: Verify Newsletter Option
+[INFO ] 2025-03-10 14:02:43.915 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 14:02:43.916 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.916 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:02:43.916 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.919 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.919 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:02:43.920 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.923 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.924 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:02:43.924 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.933 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.933 [main] StepNameListener - Executing step: The Newsletter option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:43.933 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.936 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.936 [main] StepNameListener - Executing step: The user clicks on the Newsletter option in the Quick Access Panel
+[INFO ] 2025-03-10 14:02:43.937 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.939 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.939 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:43.939 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.941 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.941 [main] StepNameListener - Executing step: The user should be redirected to the newsletter page
+[INFO ] 2025-03-10 14:02:43.941 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.945 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.946 [main] StepNameListener - Executing step: The user is on the newsletter page
+[INFO ] 2025-03-10 14:02:43.946 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.948 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.948 [main] StepNameListener - Executing step: The user clicks on the Newsletter option
+[INFO ] 2025-03-10 14:02:43.948 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.955 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.955 [main] StepNameListener - Executing step: The Newsletter option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:02:43.955 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.964 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.964 [main] StepNameListener - Executing step: The user clicks on the Newsletter option
+[INFO ] 2025-03-10 14:02:43.970 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.978 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.978 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:02:43.979 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:43.983 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:02:43.983 [main] StepNameListener - Executing step: The newsletter page should load properly
+[INFO ] 2025-03-10 14:02:43.984 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:44.030 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 14:02:44.266 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 14:02:44.268 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:02:44.268 [main] Hooks - Verify Newsletter Option Status - FAILED
+[INFO ] 2025-03-10 14:02:44.268 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:19.332 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 14:04:19.339 [main] Hooks - Scenario Title: Verify Recurring Payments Option
+[INFO ] 2025-03-10 14:04:19.340 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 14:04:19.361 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 14:04:21.923 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 14:04:21.923 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 14:04:21.975 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 14:04:21.977 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 14:04:22.021 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 14:04:22.043 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.044 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:04:22.045 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.348 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.348 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:04:22.348 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.354 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.355 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:04:22.355 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.361 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.362 [main] StepNameListener - Executing step: The Recurring Payments option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:04:22.362 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.367 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.368 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option in the Quick Access Panel
+[INFO ] 2025-03-10 14:04:22.368 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.370 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.370 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:04:22.370 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.378 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.378 [main] StepNameListener - Executing step: The user should be redirected to the recurring payments page
+[INFO ] 2025-03-10 14:04:22.378 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.382 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.383 [main] StepNameListener - Executing step: The user is on the recurring payments page
+[INFO ] 2025-03-10 14:04:22.384 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.387 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.389 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option
+[INFO ] 2025-03-10 14:04:22.389 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.398 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.399 [main] StepNameListener - Executing step: The Recurring Payments option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:04:22.399 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.403 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.404 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option
+[INFO ] 2025-03-10 14:04:22.404 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.413 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.413 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:04:22.414 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.416 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:04:22.416 [main] StepNameListener - Executing step: The recurring payments page should load properly
+[INFO ] 2025-03-10 14:04:22.416 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.474 [main] Hooks - CLosing the Driver
+[WARN ] 2025-03-10 14:04:22.580 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[INFO ] 2025-03-10 14:04:22.771 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 14:04:22.774 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:04:22.779 [main] Hooks - Verify Recurring Payments Option Status - PENDING
+[INFO ] 2025-03-10 14:04:22.780 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.018 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.028 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:08:39.028 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.037 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.038 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:08:39.039 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.042 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.042 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:08:39.043 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.048 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.048 [main] StepNameListener - Executing step: The Recurring Payments option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:08:39.052 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.085 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.087 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option in the Quick Access Panel
+[INFO ] 2025-03-10 14:08:39.092 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.103 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.106 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:08:39.106 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.111 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.113 [main] StepNameListener - Executing step: The user should be redirected to the recurring payments page
+[INFO ] 2025-03-10 14:08:39.114 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.152 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.158 [main] StepNameListener - Executing step: The user is on the recurring payments page
+[INFO ] 2025-03-10 14:08:39.165 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.171 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.174 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option
+[INFO ] 2025-03-10 14:08:39.176 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.184 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.184 [main] StepNameListener - Executing step: The Recurring Payments option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:08:39.186 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.204 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.205 [main] StepNameListener - Executing step: The user clicks on the Recurring Payments option
+[INFO ] 2025-03-10 14:08:39.205 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.214 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.220 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:08:39.220 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:08:39.233 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:08:39.234 [main] StepNameListener - Executing step: The recurring payments page should load properly
+[INFO ] 2025-03-10 14:08:39.317 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:08.978 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:08.993 [main] StepNameListener - Executing step: The user navigates to the homepage
+[INFO ] 2025-03-10 14:09:08.994 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.007 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.008 [main] StepNameListener - Executing step: The user is on the homepage
+[INFO ] 2025-03-10 14:09:09.008 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.029 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.029 [main] StepNameListener - Executing step: The user looks at the Quick Access Panel
+[INFO ] 2025-03-10 14:09:09.029 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.040 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.040 [main] StepNameListener - Executing step: The Reward Points option should be visible in the Quick Access Panel
+[INFO ] 2025-03-10 14:09:09.040 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.044 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.045 [main] StepNameListener - Executing step: The user clicks on the Reward Points option in the Quick Access Panel
+[INFO ] 2025-03-10 14:09:09.045 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.064 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.069 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:09:09.072 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.077 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.080 [main] StepNameListener - Executing step: The user should be redirected to the reward points page
+[INFO ] 2025-03-10 14:09:09.083 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.093 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.094 [main] StepNameListener - Executing step: The user is on the reward points page
+[INFO ] 2025-03-10 14:09:09.094 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.106 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.106 [main] StepNameListener - Executing step: The user clicks on the Reward Points option
+[INFO ] 2025-03-10 14:09:09.108 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.113 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.114 [main] StepNameListener - Executing step: The Reward Points option should be clickable and not blocked by any other elements
+[INFO ] 2025-03-10 14:09:09.114 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.137 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.138 [main] StepNameListener - Executing step: The user clicks on the Reward Points option
+[INFO ] 2025-03-10 14:09:09.139 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.172 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.173 [main] StepNameListener - Executing step: The user waits for the page to load
+[INFO ] 2025-03-10 14:09:09.178 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 14:09:09.190 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 14:09:09.193 [main] StepNameListener - Executing step: The reward points page should load properly
+[INFO ] 2025-03-10 14:09:09.197 [main] StepNameListener - ---------------------------------------------------------------------
