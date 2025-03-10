@@ -1,4 +1,6 @@
 package com.pdl.step_definitions;
+
+
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.WebDriver;
@@ -8,8 +10,6 @@ import com.pdl.pages.HomePage;
 import com.pdl.pages.Homepage_Quafox;
 import com.pdl.pages.Registration_Quafox;
 import com.pdl.utilities.Driver;
-import com.sun.tools.sjavac.Log;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
