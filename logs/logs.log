@@ -10274,3 +10274,386 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-03-04 19:50:16.817 [main] Hooks - CLosing the Driver
 [INFO ] 2025-03-04 19:50:17.302 [main] Hooks - Driver Closed
 >>>>>>> Stashed changes
+[INFO ] 2025-03-10 17:46:45.784 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:46:45.822 [main] Hooks - Scenario Title: Verify Recurring Payments option in the Quick Access Panel
+[INFO ] 2025-03-10 17:46:45.823 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:46:45.884 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:46:47.440 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:46:47.441 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:46:48.862 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:46:48.869 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:46:48.901 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:46:49.231 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:46:49.233 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:46:49.234 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:46:49.238 [main] Hooks - Verify Recurring Payments option in the Quick Access Panel Status - UNDEFINED
+[INFO ] 2025-03-10 17:46:49.239 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:52:15.347 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:52:18.449 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:52:18.450 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:52:18.484 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:52:18.484 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:52:18.508 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:52:18.519 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:52:18.519 [main] Hooks - Scenario Title: Verify Recurring Payments option in the Quick Access Panel
+[INFO ] 2025-03-10 17:52:18.520 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:52:19.562 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:52:19.562 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:52:19.563 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:52:19.567 [main] Hooks - Verify Recurring Payments option in the Quick Access Panel Status - PASSED
+[INFO ] 2025-03-10 17:52:19.568 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:52:19.656 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:52:20.107 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:52:20.108 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:52:20.130 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:52:20.133 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:52:20.674 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:52:20.674 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:52:20.674 [main] Hooks - Scenario Title: Verify Reward Points option in the Quick Access Panel
+[INFO ] 2025-03-10 17:52:20.674 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:52:20.970 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:52:20.970 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:52:20.970 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:52:20.972 [main] Hooks - Verify Reward Points option in the Quick Access Panel Status - UNDEFINED
+[INFO ] 2025-03-10 17:52:20.972 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:00.021 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:55:03.564 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:55:03.564 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:55:03.643 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:55:03.644 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:55:03.681 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:55:03.695 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:55:03.696 [main] Hooks - Scenario Title: Verify Recurring Payments option in the Quick Access Panel
+[INFO ] 2025-03-10 17:55:03.696 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:55:04.355 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:55:04.355 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:55:04.356 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:04.361 [main] Hooks - Verify Recurring Payments option in the Quick Access Panel Status - PASSED
+[INFO ] 2025-03-10 17:55:04.361 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:04.405 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:55:05.151 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:55:05.162 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:55:05.176 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:55:05.177 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:55:05.718 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:55:05.718 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:55:05.719 [main] Hooks - Scenario Title: Verify Reward Points option in the Quick Access Panel
+[INFO ] 2025-03-10 17:55:05.719 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:55:06.249 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:55:06.250 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:55:06.251 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:06.251 [main] Hooks - Verify Reward Points option in the Quick Access Panel Status - PASSED
+[INFO ] 2025-03-10 17:55:06.251 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:06.353 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:55:06.818 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:55:06.819 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:55:06.835 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:55:06.838 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:55:07.376 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:55:07.377 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:55:07.378 [main] Hooks - Scenario Title: Verify Returns option in the Quick Access Panel
+[INFO ] 2025-03-10 17:55:07.378 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:55:07.638 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:55:07.638 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:55:07.639 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:07.639 [main] Hooks - Verify Returns option in the Quick Access Panel Status - UNDEFINED
+[INFO ] 2025-03-10 17:55:07.639 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:07.676 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:55:08.297 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:55:08.298 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:55:08.325 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:55:08.325 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:55:08.901 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:55:08.902 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:55:08.903 [main] Hooks - Scenario Title: Verify Transactions option in the Quick Access Panel
+[INFO ] 2025-03-10 17:55:08.903 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:55:09.209 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:55:09.209 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:55:09.210 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:09.211 [main] Hooks - Verify Transactions option in the Quick Access Panel Status - UNDEFINED
+[INFO ] 2025-03-10 17:55:09.211 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:09.242 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 17:55:09.676 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 17:55:09.688 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 17:55:09.699 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 17:55:09.701 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 17:55:10.241 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 17:55:10.242 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 17:55:10.242 [main] Hooks - Scenario Title: Verify Newsletter option in the Quick Access Panel
+[INFO ] 2025-03-10 17:55:10.242 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 17:55:10.499 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 17:55:10.499 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 17:55:10.500 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:55:10.500 [main] Hooks - Verify Newsletter option in the Quick Access Panel Status - UNDEFINED
+[INFO ] 2025-03-10 17:55:10.501 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 17:58:06.329 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 17:58:06.340 [main] StepNameListener - Executing step: Navigate to the Quick Access Panel using the provided URL
+[INFO ] 2025-03-10 17:58:06.340 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 17:58:06.353 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 17:58:06.353 [main] StepNameListener - Executing step: Verify the Recurring Payments option is visible in the Quick Access Panel.
+[INFO ] 2025-03-10 17:58:06.354 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 17:58:06.363 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 17:58:06.364 [main] StepNameListener - Executing step: Clicking the Recurring Payments option should redirect to the recurring payments page.
+[INFO ] 2025-03-10 17:58:06.364 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 17:58:06.368 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 17:58:06.371 [main] StepNameListener - Executing step: Verify the Recurring Payments option is clickable and not blocked by any other elements.
+[INFO ] 2025-03-10 17:58:06.371 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 17:58:06.388 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 17:58:06.389 [main] StepNameListener - Executing step: Verify the recurring payments page loads properly.
+[INFO ] 2025-03-10 17:58:06.389 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:12:17.851 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:12:20.487 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:12:20.489 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:12:20.558 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:12:20.558 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:12:20.582 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:12:20.590 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:12:20.591 [main] Hooks - Scenario Title: Verify Complete Registration Process
+[INFO ] 2025-03-10 18:12:20.591 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:12:20.831 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:12:20.832 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:12:20.832 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:12:20.836 [main] Hooks - Verify Complete Registration Process Status - UNDEFINED
+[INFO ] 2025-03-10 18:12:20.837 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:17:59.558 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:17:59.566 [main] Hooks - Scenario Title: Verify Complete Registration Process
+[INFO ] 2025-03-10 18:17:59.566 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:17:59.576 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:18:02.254 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:18:02.255 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:18:02.342 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:18:02.342 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:18:02.366 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:18:04.262 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:18:04.268 [main] Hooks - Verify Complete Registration Process Status - FAILED
+[INFO ] 2025-03-10 18:18:04.272 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:09.405 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:20:12.685 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:20:12.697 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:20:12.737 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:20:12.737 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:20:12.827 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:20:12.839 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:20:12.840 [main] Hooks - Scenario Title: Verify Complete Registration Process
+[INFO ] 2025-03-10 18:20:12.841 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:20:14.817 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:20:14.817 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:20:14.818 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:14.822 [main] Hooks - Verify Complete Registration Process Status - PASSED
+[INFO ] 2025-03-10 18:20:14.822 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:14.859 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:20:15.297 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:20:15.298 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:20:15.315 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:20:15.315 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:20:38.709 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:20:46.027 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:20:46.027 [main] Hooks - Scenario Title: Verify User Can Successfully Log In
+[INFO ] 2025-03-10 18:20:46.027 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:20:46.037 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:46.037 [main] Hooks - Verify User Can Successfully Log In Status - FAILED
+[INFO ] 2025-03-10 18:20:46.038 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:55.424 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:20:55.425 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:20:55.459 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:20:55.465 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:20:55.490 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:20:55.497 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:20:55.497 [main] Hooks - Scenario Title: Verify Complete Registration Process
+[INFO ] 2025-03-10 18:20:55.497 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:20:57.384 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:20:57.384 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:20:57.385 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:57.388 [main] Hooks - Verify Complete Registration Process Status - PASSED
+[INFO ] 2025-03-10 18:20:57.388 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:57.442 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:20:58.287 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:20:58.287 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:20:58.309 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:20:58.310 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:20:58.846 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:20:58.846 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:20:58.846 [main] Hooks - Scenario Title: Verify User Can Successfully Log In
+[INFO ] 2025-03-10 18:20:58.846 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:20:59.583 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:20:59.584 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:20:59.584 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:59.584 [main] Hooks - Verify User Can Successfully Log In Status - PASSED
+[INFO ] 2025-03-10 18:20:59.585 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:20:59.647 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:21:00.091 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:21:00.095 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:21:00.114 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:21:00.115 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:21:00.652 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:21:00.652 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:21:00.652 [main] Hooks - Scenario Title: Verify Error Message Appears for Invalid Login Attempt
+[INFO ] 2025-03-10 18:21:00.652 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:21:00.987 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:21:00.987 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:21:00.988 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:21:00.988 [main] Hooks - Verify Error Message Appears for Invalid Login Attempt Status - UNDEFINED
+[INFO ] 2025-03-10 18:21:00.989 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:22:58.247 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:23:00.767 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:23:00.768 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:23:00.801 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:23:00.801 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:23:00.825 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:23:00.832 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:23:00.833 [main] Hooks - Scenario Title: Verify Complete Registration Process
+[INFO ] 2025-03-10 18:23:00.833 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:23:02.799 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:23:02.799 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:23:02.799 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:02.804 [main] Hooks - Verify Complete Registration Process Status - PASSED
+[INFO ] 2025-03-10 18:23:02.804 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:02.839 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:23:03.686 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:23:03.687 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:23:03.713 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:23:03.714 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:23:04.246 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:23:04.247 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:23:04.247 [main] Hooks - Scenario Title: Verify User Can Successfully Log In
+[INFO ] 2025-03-10 18:23:04.247 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:23:04.992 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:23:04.993 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:23:04.993 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:04.993 [main] Hooks - Verify User Can Successfully Log In Status - PASSED
+[INFO ] 2025-03-10 18:23:04.994 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:05.053 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:23:05.473 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:23:05.486 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:23:05.500 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:23:05.500 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:23:06.036 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:23:06.036 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:23:06.037 [main] Hooks - Scenario Title: Verify Error Message Appears for Invalid Login Attempt
+[INFO ] 2025-03-10 18:23:06.037 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:23:06.778 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:23:06.780 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:23:06.780 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:06.781 [main] Hooks - Verify Error Message Appears for Invalid Login Attempt Status - PASSED
+[INFO ] 2025-03-10 18:23:06.781 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:06.944 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:23:07.411 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:23:07.418 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:23:07.453 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:23:07.455 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:23:07.994 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:23:07.994 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:23:07.995 [main] Hooks - Scenario Title: Verify User Can Successfully Reset Password
+[INFO ] 2025-03-10 18:23:07.995 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:23:08.411 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:23:08.411 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:23:08.412 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:23:08.412 [main] Hooks - Verify User Can Successfully Reset Password Status - UNDEFINED
+[INFO ] 2025-03-10 18:23:08.412 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.682 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.687 [main] StepNameListener - Executing step: Navigate to the "Your Store" website using the provided URL
+[INFO ] 2025-03-10 18:27:08.688 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.697 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.697 [main] StepNameListener - Executing step: Click the link and verify it is accessible and clickable.
+[INFO ] 2025-03-10 18:27:08.697 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.700 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.701 [main] StepNameListener - Executing step: Clicking on the link, it should redirect the user to the registration web page.
+[INFO ] 2025-03-10 18:27:08.701 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.707 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.707 [main] StepNameListener - Executing step: Click on the "Login" option from the homepage or header menu.
+[INFO ] 2025-03-10 18:27:08.707 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.720 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.720 [main] StepNameListener - Executing step: Verify the Login Page displays two sections:
+[INFO ] 2025-03-10 18:27:08.721 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.735 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.736 [main] StepNameListener - Executing step: Confirm the "Continue" button is present under the New Customer section.
+[INFO ] 2025-03-10 18:27:08.736 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.742 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.742 [main] StepNameListener - Executing step: Click the "Continue" button.
+[INFO ] 2025-03-10 18:27:08.742 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.746 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.747 [main] StepNameListener - Executing step: Confirm the login button is accessible and clickable.
+[INFO ] 2025-03-10 18:27:08.747 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.752 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.753 [main] StepNameListener - Executing step: Confirm the user is redirected to the Registration Form page.
+[INFO ] 2025-03-10 18:27:08.753 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.760 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.760 [main] StepNameListener - Executing step: Check the Registration Form contains the following fields:
+[INFO ] 2025-03-10 18:27:08.760 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.765 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.765 [main] StepNameListener - Executing step: Enter valid information in the required fields.
+[INFO ] 2025-03-10 18:27:08.767 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.775 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.777 [main] StepNameListener - Executing step: Select "Yes" or "No" for Newsletter Subscription.
+[INFO ] 2025-03-10 18:27:08.778 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.784 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.788 [main] StepNameListener - Executing step: Check the Privacy Policy agreement box.
+[INFO ] 2025-03-10 18:27:08.793 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.797 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.798 [main] StepNameListener - Executing step: Click the "Continue" button.
+[INFO ] 2025-03-10 18:27:08.798 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.801 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.801 [main] StepNameListener - Executing step: Verify the form submission is successful.
+[INFO ] 2025-03-10 18:27:08.801 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.809 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.809 [main] StepNameListener - Executing step: Confirm the user is redirected to the Account Dashboard or Homepage.
+[INFO ] 2025-03-10 18:27:08.809 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:27:08.813 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-10 18:27:08.813 [main] StepNameListener - Executing step: Check for a Welcome Message.
+[INFO ] 2025-03-10 18:27:08.814 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-10 18:29:53.048 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:29:56.209 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:29:56.210 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:29:56.262 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:29:56.263 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:29:56.290 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:29:56.303 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:29:56.303 [main] Hooks - Scenario Title: Verify Search Functionality Works Correctly
+[INFO ] 2025-03-10 18:29:56.303 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:29:57.184 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:29:57.185 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:29:57.187 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:29:57.193 [main] Hooks - Verify Search Functionality Works Correctly Status - UNDEFINED
+[INFO ] 2025-03-10 18:29:57.194 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:32:45.245 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:32:45.252 [main] Hooks - Scenario Title: Verify Search Functionality Works Correctly
+[INFO ] 2025-03-10 18:32:45.252 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:32:45.265 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:32:47.896 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:32:47.897 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:32:47.931 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:32:47.932 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:32:47.956 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:32:49.063 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:32:49.064 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:32:49.065 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:32:49.068 [main] Hooks - Verify Search Functionality Works Correctly Status - PASSED
+[INFO ] 2025-03-10 18:32:49.069 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:32:49.229 [main] Hooks - ================================================================
+[INFO ] 2025-03-10 18:32:49.232 [main] Hooks - Scenario Title: Verify Search Functionality with Category Selection
+[INFO ] 2025-03-10 18:32:49.234 [main] Hooks - =================================================================
+[INFO ] 2025-03-10 18:32:49.236 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-10 18:32:49.703 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-10 18:32:49.709 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-10 18:32:49.726 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-10 18:32:49.726 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-10 18:32:50.263 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-10 18:32:50.540 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-10 18:32:50.540 [main] Hooks - Driver Closed
+[INFO ] 2025-03-10 18:32:50.540 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-10 18:32:50.541 [main] Hooks - Verify Search Functionality with Category Selection Status - UNDEFINED
+[INFO ] 2025-03-10 18:32:50.541 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-11 13:43:24.586 [main] Hooks - ================================================================
+[INFO ] 2025-03-11 13:43:24.604 [main] Hooks - Scenario Title: Verify Complete Registration Process
+[INFO ] 2025-03-11 13:43:24.605 [main] Hooks - =================================================================
+[INFO ] 2025-03-11 13:43:24.617 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-11 13:43:27.373 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-11 13:43:27.384 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-11 13:43:27.522 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-11 13:43:27.523 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-11 13:43:27.572 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-11 13:43:31.493 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-11 13:43:31.499 [main] Hooks - Driver Closed
+[INFO ] 2025-03-11 13:43:31.527 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-11 13:43:31.564 [main] Hooks - Verify Complete Registration Process Status - UNDEFINED
+[INFO ] 2025-03-11 13:43:31.582 [main] Hooks - ------------------------------------------------------------------------------------------------------

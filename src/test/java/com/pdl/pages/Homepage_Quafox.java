@@ -9,6 +9,10 @@ import org.testng.Assert;
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.Driver;
 
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 //import junit.framework.Assert;
 
 
@@ -19,10 +23,26 @@ public class Homepage_Quafox extends CommonMethods{
 	public Homepage_Quafox() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
-	@FindBy(xpath = "//div[@class='list-group']//a[text()='Register']")		public WebElement Register_Account;
+	
+ // TC_25 Reyazul
+    
+    @FindBy(xpath = "/html/body/header/div/div/div[1]/div/h1/a")
+    private WebElement Navigate_To_Homepage ;
+    
+    @FindBy(xpath = "/html/body/div[2]/div/aside/div/a[9]")
+    private WebElement Recurring_payments;
+    
+    
+    
+   
+	
+
+	@FindBy(xpath = "//div[@class='list-group']//a[text()='Register']")		
+	public WebElement Register_Account;
+	
 	public WebElement RegisterAccount ;
 
-	
+
 	public void VerifyuseronHomepage () {
 		String actualtitle=driver.getTitle();
 		String expectedtitle="Account Login";
@@ -30,8 +50,99 @@ public class Homepage_Quafox extends CommonMethods{
 		Assert.assertEquals(actualtitle, expectedtitle, " Verify user is on home");
 	}
 	
-	public  void Register_an_account () {
-		RegisterAccount.click();
+		
+	public void navigate_to_the_quick_access_panel() {
+		Navigate_To_Homepage.click();
+	
 	}
+	
+
+	public void verify_the_recurring_payments_option() {
+		
+		Recurring_payments.click();
+	}
+
+	/*public void clicking_the_recurring_payments_option_should_redirect_to_the_recurring_payments_page() {
+	  
+	}
+
+	public void verify_the_recurring_payments_option_is_clickable_and_not_blocked_by_any_other_elements() {
+	  
+	}
+
+	public void verify_the_recurring_payments_page_loads_properly() {
+	  
+	}
+	
+	
+	
+	public void verify_the_reward_points_option_is_visible_in_the_quick_access_panel() {
+	
+		
+	}
+
+	public void clicking_the_reward_points_option_should_redirect_to_the_reward_points_page() {
+	
+		
+	}
+
+	public void verify_the_reward_points_option_is_clickable_and_not_blocked_by_any_other_elements() {
+	
+		
+	}
+
+	public void verify_the_reward_points_page_loads_properly() {
+	  
+	}
+	
+	public void verify_the_returns_option_is_visible_in_the_quick_access_panel() {
+	   
+	}
+
+	public void clicking_the_returns_option_should_redirect_to_the_returns_page() {
+	  
+	}
+
+	public void verify_the_returns_option_is_clickable_and_not_blocked_by_any_other_elements() {
+	   
+	}
+
+	public void verify_the_returns_page_loads_properly() {
+	   
+	}
+
+	public void verify_the_transactions_option_is_visible_in_the_quick_access_panel() {
+	   
+	}
+
+	public void clicking_the_transactions_option_should_redirect_to_the_transactions_page() {
+	   
+	}
+
+	public void verify_the_transactions_option_is_clickable_and_not_blocked_by_any_other_elements() {
+	   
+	}
+
+	public void verify_the_transactions_page_loads_properly() {
+	   
+	}
+
+	public void verify_the_newsletter_option_is_visible_in_the_quick_access_panel() {
+	  
+	}
+
+	public void clicking_the_newsletter_option_should_redirect_to_the_newsletter_page() {
+	   
+	}
+
+	public void verify_the_newsletter_option_is_clickable_and_not_blocked_by_any_other_elements() {
+	    
+	}
+
+	public void verify_the_newsletter_page_loads_properly() {
+	  
+	}
+	*/
+
 	
 }

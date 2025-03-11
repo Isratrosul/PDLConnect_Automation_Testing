@@ -56,15 +56,18 @@ public class Registration_Quafox extends CommonMethods{
     private WebElement redirect_link;
     
     
-    
-    
-    
    //Tc_03........
     
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/div/a")
     private WebElement createact;//
     
-
+    
+    
+    
+   
+    
+    
+    
 
 	//PAGE FACTORY CONSTRUCTOR.......
 	public Registration_Quafox() {
