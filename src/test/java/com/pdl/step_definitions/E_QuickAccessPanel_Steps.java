@@ -16,8 +16,8 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 	
 	@Given("Navigate to the Quick Access Panel using the provided URL")
 	public void navigate_to_the_quick_access_panel_using_the_provided_url() {
-		Quickaccess.navigate_to_the_quick_access_panel();
-		Quickaccess.VerifyuseronHomepage();
+		// Quickaccess.navigate_to_the_quick_access_panel();
+		Quickaccess.recurring_payments();
 		
 		
 		
@@ -25,8 +25,9 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 
 	@Then("Verify the Recurring Payments option is visible in the Quick Access Panel.")
 	public void verify_the_recurring_payments_option_is_visible_in_the_quick_access_panel() {
-	  
-		Quickaccess.verify_the_recurring_payments_option();
+	Quickaccess.recurring_payments();
+	
+	
 	}
 
 	@When("Clicking the Recurring Payments option should redirect to the recurring payments page.")
@@ -51,7 +52,7 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 	@Then("Verify the Reward Points option is visible in the Quick Access Panel.")
 	public void verify_the_reward_points_option_is_visible_in_the_quick_access_panel() {
 	
-		
+		Quickaccess.verify_the_reward_points_option();
 	}
 
 	@When("Clicking the Reward Points option should redirect to the reward points page.")
@@ -73,7 +74,7 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 	
 	@Then("Verify the Returns option is visible in the Quick Access Panel.")
 	public void verify_the_returns_option_is_visible_in_the_quick_access_panel() {
-	   
+	   Quickaccess.verify_the_returns_option();
 	}
 
 	@When("Clicking the Returns option should redirect to the returns page.")
@@ -93,7 +94,7 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 
 	@Then("Verify the Transactions option is visible in the Quick Access Panel.")
 	public void verify_the_transactions_option_is_visible_in_the_quick_access_panel() {
-	   
+	   Quickaccess.verify_the_transactions_option_is_visible_in_the_quick_access_panel();
 	}
 
 	@When("Clicking the Transactions option should redirect to the transactions page.")
@@ -113,7 +114,8 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 
 	@Then("Verify the Newsletter option is visible in the Quick Access Panel.")
 	public void verify_the_newsletter_option_is_visible_in_the_quick_access_panel() {
-	  
+		
+	  Quickaccess.verify_the_newsletter_option_is_visible_in_the_quick_access_panel();
 	}
 
 	@When("Clicking the Newsletter option should redirect to the newsletter page.")

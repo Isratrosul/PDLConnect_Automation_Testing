@@ -24,7 +24,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 
 		dryRun=false,
-		tags="@TC_25"
+		tags="@Tc_25 or @Tc_26 or @Tc_27 or @Tc_28 or @Tc_29"
 
 		
 
