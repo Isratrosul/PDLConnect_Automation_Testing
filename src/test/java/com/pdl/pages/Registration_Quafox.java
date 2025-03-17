@@ -43,7 +43,7 @@ public class Registration_Quafox extends CommonMethods{
     @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[1]") 
     private WebElement privacypolicybtn;
     
-    @FindBy(css = "#content > form > div > div > input.btn.btn-primary") 
+    @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/div/a") 
     private WebElement continueBtn;
 
     @FindBy(css = "//*[@id=\"account\"]/div[5]/div/div") 
@@ -62,14 +62,50 @@ public class Registration_Quafox extends CommonMethods{
     private WebElement createact;//
     
     
+    // Reyazul 
+    //TC-30 
     
-    //
+    @FindBy(xpath = "/html/body/div[2]/div/div/h1")
+    private WebElement Registation;
     
+    @FindBy(xpath = "/html/body/div[2]/div/aside/div/a[1]")
+    private WebElement Login;
+    
+    @FindBy (xpath = "/html/body/div[2]/div/div/div/div[1]/div/a")
+    private WebElement New_Customer;
+     
+    
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/fieldset[1]/div[2]/div/input")
+    private WebElement First_Name ;
+    
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/fieldset[1]/div[3]/div/input")
+    private WebElement Last_Name;
+    
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/fieldset[1]/div[4]/div/input")
+    private WebElement Email;
+    
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/fieldset[1]/div[5]/div/input")
+    private WebElement Telephone;
+    
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/fieldset[2]/div[1]/div/input")
+    private WebElement Password;
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/fieldset[2]/div[2]/div/input")
+    private WebElement  Password_Confirm;
+    
+    @FindBy (xpath = " /html/body/div[2]/div/div/form/fieldset[3]/div/div/label[2]")
+    private WebElement  Newsletter;
    
+    @FindBy (xpath = " /html/body/div[2]/div/div/form/div/div/input[1]")
+    private WebElement Policy ;
     
-    
-    
-
+    @FindBy (xpath = "/html/body/div[2]/div/div/form/div/div/input[2]")
+    private WebElement Continue;
+  
+    @FindBy (xpath = "/html/body/div[2]/div/div/div/div[2]/div/form/div[1]/input")
+    private WebElement login_email;
+    @FindBy (xpath = "/html/body/div[2]/div/div/div/div[2]/div/form/div[2]/input")
+    private WebElement login_password;
+ 
 	//PAGE FACTORY CONSTRUCTOR.......
 	public Registration_Quafox() {
 		PageFactory.initElements(Driver.getDriver(), this);
@@ -81,52 +117,77 @@ public class Registration_Quafox extends CommonMethods{
 		regform.click();	
     }
 
-    public void enterFirstName(String firstName) {
-        firstNameField.clear();
-        firstNameField.sendKeys(firstName);
+	
+  
+    
+    //TC-30
+    public void Registration_Process () {
+    	
+		String actualtitle=driver.getTitle();
+		String expectedtitle="Register Account";
+		Assert.assertEquals(actualtitle, expectedtitle, "Registration Process");
+		
+	}
+    
+    public void login() {
+    	Login.click();
     }
-
-    public void enterLastName(String lastName) {
-        lastNameField.clear();
-        lastNameField.sendKeys(lastName);
+    public void new_customer () {
+    	New_Customer.click();
     }
-
-    public void enterEmail(String email) {
-        emailField.clear();
-        emailField.sendKeys(email);
+    public void first_Name() {
+    	First_Name.click();
+    	First_Name.sendKeys("Reyazul");
     }
-
-    public void enterPassword(String password) {
-        passwordField.clear();
-        passwordField.sendKeys(password);
+    public void last_name () {
+    	Last_Name.click();
+    	Last_Name.sendKeys("Islam");
+    }
+    public void email() {
+    	Email.click();
+    	Email.sendKeys("teamaqa35@gmai.com");
+    }
+    public void telephone() {
+    	Telephone.click();
+    	Telephone.sendKeys("3473447765");
+    	
+    }
+    public void password () {
+    	Password.click();
+    	Password.sendKeys("teamA1234@");
+    }
+    public void confirm_password() {
+    	Password_Confirm.click();
+    	Password_Confirm.sendKeys("teamA1234@");
+    }
+    public void newsletter() {
+    	Newsletter.click();
     }
     
-    public void confirmpassword (String confirmpassword  ) {
-		confirmpasswordField.sendKeys(confirmpassword);
-    		
+    public void policy() {
+    	Policy.click();
     }
-    public void telephonenumber (String phonenumber ) {
-    	telephonenymberfield.sendKeys(phonenumber);
-    		
-    }
-    public void click_on_privacy_policy () {
-    	privacypolicybtn.click();
+    public void ccontinue() {
+    	Continue.click();
     }
     
-    public void clickcontinueButton() {
-    	continueBtn.click();
+    public void Login_email () {
+    	login_email.click();
+    	login_email.sendKeys("teamaqa35@gmail.com");
     }
+    public void Login_password() {
+    	login_password.click();
+    	login_password.sendKeys("teamA1234@");
+    }
+    
 
-    public boolean isErrorMessageDisplayed() {
-        return errorMessage.isDisplayed();
-    }
-  public void Verify_user_link_direct_them_to_log_in_page () {
+  /* public void Verify_user_link_direct_them_to_log_in_page () {
 	  String actualtitle=driver.getTitle();
 		String expectedtitle="Register Account";
 		Assert.assertEquals(actualtitle, expectedtitle, " Verify user is on log in  page");
 	}
 	 
-  // TC_02 *************************************************************
+/*  // TC_02 *************************************************************
 
   public void create_account_button (String createacount) {
 	  createact.click();
@@ -140,7 +201,8 @@ public class Registration_Quafox extends CommonMethods{
       return userLink.isDisplayed();
       
   }
-
+*/
+  
   // Method to click on user link
     public void clickUserLink() {
       userLink.click();
@@ -148,12 +210,7 @@ public class Registration_Quafox extends CommonMethods{
     public void redirect_user_to_link () {
     	redirect_link.click();
     }
-		
 	
 	
-  
     
-	
-
-
 }

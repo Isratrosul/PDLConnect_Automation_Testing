@@ -1,23 +1,33 @@
 package com.pdl.step_definitions;
 
+import com.pdl.pages.Homepage_Quafox;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class G_SearchFunctionality_Steps {
+public class G_SearchFunctionality_Steps extends Homepage_Quafox{
+	G_SearchFunctionality_Steps searchlaptop = new G_SearchFunctionality_Steps();
+	
+	
 	@Given("Navigate to the website’s home page")
 	public void navigate_to_the_website_s_home_page() {
-	   
+	  
+	   searchlaptop.loginfor();
+	   searchlaptop.Login_email();
+	   searchlaptop.Login_password();
+	   searchlaptop.Final_login();
 	}
 
 	@Then("Locate the search box.")
 	public void locate_the_search_box() {
+	searchlaptop.Search_box();
 	  
 	}
 
 	@When("Enter the text string {string} in the search box.")
 	public void enter_the_text_string_in_the_search_box(String string) {
-	    
+	    searchlaptop.Search_box();
 	}
 
 	@Then("Verify that the search box accepts the text input.")
@@ -32,7 +42,7 @@ public class G_SearchFunctionality_Steps {
 
 	@When("Click the search button.")
 	public void click_the_search_button() {
-	    
+	    searchlaptop.Search();
 	}
 
 	@Then("Confirm that clicking the search button initiates a search.")
@@ -52,7 +62,7 @@ public class G_SearchFunctionality_Steps {
 	
 	@Then("Locate the drop-down menu for product categories.")
 	public void locate_the_drop_down_menu_for_product_categories() {
-	   
+	   searchlaptop.allcatagorie();
 	}
 
 	@Then("Confirm that the drop-down menu is visible and clickable.")
@@ -62,12 +72,12 @@ public class G_SearchFunctionality_Steps {
 
 	@When("Click the drop-down menu and ensure that all available categories are displayed.")
 	public void click_the_drop_down_menu_and_ensure_that_all_available_categories_are_displayed() {
-	  
+	  searchlaptop.allcatagorie();
 	}
 
 	@Then("Select the {string} category.")
 	public void select_the_category(String string) {
-	   
+	   searchlaptop.laptop();
 	}
 
 	@Then("Enter the keyword {string} in the search box.")
