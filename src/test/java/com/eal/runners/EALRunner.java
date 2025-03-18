@@ -23,13 +23,17 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 		features = "src/test/resources/", 
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
+
 		dryRun=false,
 		tags="@Tc_04"
+
+		
+
 		
 //		monochrome=false
 )
 
-public class EALRunner extends AbstractTestNGCucumberTests {
+public class EALRunner  {
 	
 	@After
 	public static void teardown() {
