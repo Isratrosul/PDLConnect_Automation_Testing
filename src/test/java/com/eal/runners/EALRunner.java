@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import com.vimalselvam.cucumber.listener.Reporter;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 //import cucumber.api.CucumberOptions;
 //import oracle.jdbc.driver.OracleDriver;
@@ -24,7 +25,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 
 		dryRun=false,
-		tags="@Tc_14"
+		tags="@Tc_04"
 
 		
 
@@ -32,7 +33,7 @@ import io.cucumber.junit.CucumberOptions;
 //		monochrome=false
 )
 
-public class EALRunner {
+public class EALRunner  {
 	
 	@After
 	public static void teardown() {
