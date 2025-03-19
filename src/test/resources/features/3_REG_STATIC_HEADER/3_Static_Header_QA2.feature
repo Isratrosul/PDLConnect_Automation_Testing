@@ -1,7 +1,6 @@
 @Registration_Static_Header
 Feature: Registration_static_header_test_case 
 
-Background: 
 
 
 
