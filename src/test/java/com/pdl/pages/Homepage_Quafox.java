@@ -143,7 +143,7 @@ public class Homepage_Quafox extends CommonMethods{
 		
 	}
 	
-	//Tc_05*******************************************************************************************************
+	//Tc_06*******************************************************************************************************
 	public void Verify__user_on_Homepage () {
 		String actualtitle=driver.getTitle();
 		String expectedtitle="Register Account";
