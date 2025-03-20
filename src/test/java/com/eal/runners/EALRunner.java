@@ -5,7 +5,6 @@ import org.junit.runner.RunWith;
 import com.vimalselvam.cucumber.listener.Reporter;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 //import cucumber.api.CucumberOptions;
 //import oracle.jdbc.driver.OracleDriver;
@@ -21,11 +20,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		"com.pdl.hooks.StepNameListener"}, // here "com.pdl.hooks" this is package and stepname is insider class
 
-		features = "src/test/resources/", 
+		features = "src/test/resources/features", 
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 
 		dryRun=false,
-		tags="@Tc_04"
+		tags="@TC_34 or @TC_35"
 
 		
 
@@ -33,7 +32,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //		monochrome=false
 )
 
-public class EALRunner  {
+public class EALRunner {
 	
 	@After
 	public static void teardown() {

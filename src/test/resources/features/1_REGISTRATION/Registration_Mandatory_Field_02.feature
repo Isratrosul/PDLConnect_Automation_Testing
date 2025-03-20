@@ -6,7 +6,10 @@ Feature: Registration_Mandatory_Field_Test_cases
   @Tc_03  @Validate_User_registers_for_an_account
   Scenario Outline:03_Validate User registers for an account
   
-    Given Navigate to the registration page .
+    When The "Create Account" button is visible and blue
+    And The "Create Account" button is positioned at the bottom right of the form
+    And All required field labels are correct and clear
+
     Then I enter an "<email>" address and verify proper email format validation
     And I enter a valid password that adheres to policy requirements 
     And The "<Password>" and "<Confirm Password>" fields match
@@ -18,6 +21,7 @@ Feature: Registration_Mandatory_Field_Test_cases
     Then The system does not accept duplicate email addresses
 
     When I complete the form with valid details
+    Then An OTP is sent to the correct email or phone number
 
     When I enter the correct "<OTP>"
     Then "<Registration status>" is successful
@@ -32,7 +36,9 @@ Feature: Registration_Mandatory_Field_Test_cases
 
     When Registration is successful
     Then The user is redirected to the homepage
-   
+    And A welcome message appears with the user’s name
+    And The user can log in immediately
+
     When Registration is unsuccessful
     Then The user is unable to access restricted pages without logging in
     
