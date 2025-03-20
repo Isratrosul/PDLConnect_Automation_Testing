@@ -210,6 +210,61 @@ public class Registration_Quafox extends CommonMethods{
     public void redirect_user_to_link () {
     	redirect_link.click();
     }
+
+	public void create_account_button(String create_Account) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void isUserLinkVisible() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void Verify_user_link_direct_them_to_log_in_page() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void clickcontinueButton() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void click_on_privacy_policy() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void telephonenumber(String phonenumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void confirmpassword(String confirmpassword) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void enterPassword(String password2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void enterEmail(String email2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void enterLastName(String last_name2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void enterFirstName(String first_name2) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
     
