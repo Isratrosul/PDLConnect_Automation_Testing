@@ -13,7 +13,7 @@ public class E_QuickAccessPanel_Steps extends  Homepage_Quafox {
 	 Homepage_Quafox Quickaccess = new  Homepage_Quafox();
 	 
 	 
-	
+	// Test case _25 (Reyazul)
 	@Given("Navigate to the Quick Access Panel using the provided URL")
 	public void navigate_to_the_quick_access_panel_using_the_provided_url() {
 		// Quickaccess.navigate_to_the_quick_access_panel();

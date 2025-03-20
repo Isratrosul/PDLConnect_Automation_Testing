@@ -15966,3 +15966,198 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-03-19 11:49:20.355 [main] Hooks - CLosing the Driver
 [INFO ] 2025-03-19 11:49:20.356 [main] Hooks - Driver Closed
 
+[INFO ] 2025-03-20 10:53:33.960 [main] Hooks - ================================================================
+[INFO ] 2025-03-20 10:53:33.963 [main] Hooks - Scenario Title: 20_Verify My Account Option
+[INFO ] 2025-03-20 10:53:33.963 [main] Hooks - =================================================================
+[INFO ] 2025-03-20 10:53:33.977 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-20 10:53:35.830 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-20 10:53:35.830 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-20 10:53:35.844 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-20 10:53:35.844 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-20 10:53:35.868 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-20 10:53:35.873 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:35.873 [main] StepNameListener - Executing step: Verify the My Account option is visible in the Quick Access Panel
+[INFO ] 2025-03-20 10:53:35.874 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.142 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:36.142 [main] StepNameListener - Executing step: The user clicks on the My Account option in the Quick Access Panel
+[INFO ] 2025-03-20 10:53:36.142 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.263 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:36.263 [main] StepNameListener - Executing step: Verify that the user is redirected to the user account page
+[INFO ] 2025-03-20 10:53:36.263 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.393 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:36.393 [main] StepNameListener - Executing step: the user is on the page with the My Account option visible
+[INFO ] 2025-03-20 10:53:36.393 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.522 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:36.523 [main] StepNameListener - Executing step: Verify that the My Account option is clickable and not cut off
+[INFO ] 2025-03-20 10:53:36.523 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.628 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:36.628 [main] StepNameListener - Executing step: The user clicks on the My Account option
+[INFO ] 2025-03-20 10:53:36.628 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.740 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:53:36.740 [main] StepNameListener - Executing step: Verify that the user account page loads properly
+[INFO ] 2025-03-20 10:53:36.740 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.860 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-20 10:53:36.860 [main] Hooks - Driver Closed
+[INFO ] 2025-03-20 10:53:36.860 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:53:36.862 [main] Hooks - 20_Verify My Account Option Status - PASSED
+[INFO ] 2025-03-20 10:53:36.862 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:01.440 [main] Hooks - ================================================================
+[INFO ] 2025-03-20 10:54:01.443 [main] Hooks - Scenario Title: 21_Verify Address Book Option
+[INFO ] 2025-03-20 10:54:01.443 [main] Hooks - =================================================================
+[INFO ] 2025-03-20 10:54:01.453 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-20 10:54:03.128 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-20 10:54:03.128 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-20 10:54:03.146 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-20 10:54:03.146 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-20 10:54:03.167 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-20 10:54:03.173 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:03.174 [main] StepNameListener - Executing step: The user clicks on the Address Book option in the Quick Access Panel
+[INFO ] 2025-03-20 10:54:03.174 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:03.433 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:03.433 [main] StepNameListener - Executing step: Verify that the user is redirected to the address book page
+[INFO ] 2025-03-20 10:54:03.433 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:03.567 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:03.567 [main] StepNameListener - Executing step: Verify user is on the page with the Address Book option visible
+[INFO ] 2025-03-20 10:54:03.568 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:03.691 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:03.691 [main] StepNameListener - Executing step: Check that the Address Book option is clickable and not obstructed
+[INFO ] 2025-03-20 10:54:03.691 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:04.473 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:04.474 [main] StepNameListener - Executing step: The user clicks on the Address Book option
+[INFO ] 2025-03-20 10:54:04.474 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:05.196 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:05.196 [main] StepNameListener - Executing step: Verify that the address book page loads properly
+[INFO ] 2025-03-20 10:54:05.196 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:05.338 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-20 10:54:05.338 [main] Hooks - Driver Closed
+[INFO ] 2025-03-20 10:54:05.339 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:05.340 [main] Hooks - 21_Verify Address Book Option Status - PASSED
+[INFO ] 2025-03-20 10:54:05.340 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:40.137 [main] Hooks - ================================================================
+[INFO ] 2025-03-20 10:54:40.142 [main] Hooks - Scenario Title: 22_Verify Wish List Option
+[INFO ] 2025-03-20 10:54:40.142 [main] Hooks - =================================================================
+[INFO ] 2025-03-20 10:54:40.156 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-20 10:54:41.871 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-20 10:54:41.871 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-20 10:54:41.889 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-20 10:54:41.889 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-20 10:54:41.913 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-20 10:54:41.922 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:41.923 [main] StepNameListener - Executing step: The user clicks on the Wish List option in the Quick Access Panel
+[INFO ] 2025-03-20 10:54:41.923 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:42.189 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:42.189 [main] StepNameListener - Executing step: Verify that the user is redirected to the user wish list page
+[INFO ] 2025-03-20 10:54:42.189 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:42.313 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:42.313 [main] StepNameListener - Executing step: The user is on the page with the Wish List option visible
+[INFO ] 2025-03-20 10:54:42.313 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:42.429 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:42.429 [main] StepNameListener - Executing step: Check that the Wish List option is clickable and not obstructed
+[INFO ] 2025-03-20 10:54:42.429 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:43.192 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:43.192 [main] StepNameListener - Executing step: The user clicks on the Wish List option
+[INFO ] 2025-03-20 10:54:43.192 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:43.934 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:54:43.935 [main] StepNameListener - Executing step: Verify that the wish list page loads properly
+[INFO ] 2025-03-20 10:54:43.935 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:44.058 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-20 10:54:44.058 [main] Hooks - Driver Closed
+[INFO ] 2025-03-20 10:54:44.060 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:54:44.061 [main] Hooks - 22_Verify Wish List Option Status - PASSED
+[INFO ] 2025-03-20 10:54:44.062 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:02.520 [main] Hooks - ================================================================
+[INFO ] 2025-03-20 10:55:02.524 [main] Hooks - Scenario Title: 23_Verify Order History Option
+[INFO ] 2025-03-20 10:55:02.524 [main] Hooks - =================================================================
+[INFO ] 2025-03-20 10:55:02.535 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-20 10:55:04.693 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-20 10:55:04.693 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-20 10:55:04.715 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-20 10:55:04.715 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-20 10:55:04.739 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-20 10:55:04.745 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:04.745 [main] StepNameListener - Executing step: The user clicks on the Order History option in the Quick Access Panel
+[INFO ] 2025-03-20 10:55:04.745 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:05.702 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:05.703 [main] StepNameListener - Executing step: Verify that the user is redirected to the order history page
+[INFO ] 2025-03-20 10:55:05.703 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:05.830 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:05.830 [main] StepNameListener - Executing step: The user is on the page with the Order History option visible
+[INFO ] 2025-03-20 10:55:05.830 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:05.952 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:05.952 [main] StepNameListener - Executing step: Check that the Order History option is clickable and not obstructed
+[INFO ] 2025-03-20 10:55:05.952 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:06.719 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:06.719 [main] StepNameListener - Executing step: The user clicks on the Order History option
+[INFO ] 2025-03-20 10:55:06.719 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:07.441 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:07.441 [main] StepNameListener - Executing step: Verify that the order history page loads properly
+[INFO ] 2025-03-20 10:55:07.441 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:07.578 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:07.584 [main] Hooks - 23_Verify Order History Option Status - PASSED
+[INFO ] 2025-03-20 10:55:07.584 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:07.604 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-20 10:55:07.604 [main] Hooks - Driver Closed
+[INFO ] 2025-03-20 10:55:27.594 [main] Hooks - ================================================================
+[INFO ] 2025-03-20 10:55:27.599 [main] Hooks - Scenario Title: 24_verify Downloads Option
+[INFO ] 2025-03-20 10:55:27.600 [main] Hooks - =================================================================
+[INFO ] 2025-03-20 10:55:27.608 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-20 10:55:29.264 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-20 10:55:29.266 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-20 10:55:29.283 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-20 10:55:29.283 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-20 10:55:29.303 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-20 10:55:29.310 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:29.311 [main] StepNameListener - Executing step: The user clicks on the Downloads option in the Quick Access Panel
+[INFO ] 2025-03-20 10:55:29.311 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:30.285 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:30.285 [main] StepNameListener - Executing step: Verify that the user is redirected to the downloads page
+[INFO ] 2025-03-20 10:55:30.285 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:30.400 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:30.400 [main] StepNameListener - Executing step: The user is on the page with the Downloads option visible
+[INFO ] 2025-03-20 10:55:30.400 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:30.539 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:30.539 [main] StepNameListener - Executing step: Check that the Downloads option is clickable and not blocked by any other elements
+[INFO ] 2025-03-20 10:55:30.539 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:31.332 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:31.332 [main] StepNameListener - Executing step: The user clicks on the Downloads option
+[INFO ] 2025-03-20 10:55:31.332 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:32.074 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:32.074 [main] StepNameListener - Executing step: Verify that the downloads page loads properly
+[INFO ] 2025-03-20 10:55:32.074 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:32.199 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:32.201 [main] Hooks - 24_verify Downloads Option Status - PASSED
+[INFO ] 2025-03-20 10:55:32.202 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:32.230 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-20 10:55:32.231 [main] Hooks - Driver Closed
+[INFO ] 2025-03-20 10:55:53.739 [main] Hooks - ================================================================
+[INFO ] 2025-03-20 10:55:53.744 [main] Hooks - Scenario Title: 24_verify Downloads Option
+[INFO ] 2025-03-20 10:55:53.744 [main] Hooks - =================================================================
+[INFO ] 2025-03-20 10:55:53.755 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-20 10:55:55.640 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-20 10:55:55.640 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-20 10:55:55.653 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-20 10:55:55.654 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-20 10:55:55.675 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-20 10:55:55.681 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:55.681 [main] StepNameListener - Executing step: The user clicks on the Downloads option in the Quick Access Panel
+[INFO ] 2025-03-20 10:55:55.681 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:56.620 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:56.620 [main] StepNameListener - Executing step: Verify that the user is redirected to the downloads page
+[INFO ] 2025-03-20 10:55:56.620 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:56.763 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:56.764 [main] StepNameListener - Executing step: The user is on the page with the Downloads option visible
+[INFO ] 2025-03-20 10:55:56.764 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:56.892 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:56.892 [main] StepNameListener - Executing step: Check that the Downloads option is clickable and not blocked by any other elements
+[INFO ] 2025-03-20 10:55:56.892 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:57.688 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:57.689 [main] StepNameListener - Executing step: The user clicks on the Downloads option
+[INFO ] 2025-03-20 10:55:57.689 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:58.432 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2025-03-20 10:55:58.432 [main] StepNameListener - Executing step: Verify that the downloads page loads properly
+[INFO ] 2025-03-20 10:55:58.432 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:58.583 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-20 10:55:58.583 [main] Hooks - Driver Closed
+[INFO ] 2025-03-20 10:55:58.585 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-20 10:55:58.587 [main] Hooks - 24_verify Downloads Option Status - PASSED
+[INFO ] 2025-03-20 10:55:58.587 [main] Hooks - ------------------------------------------------------------------------------------------------------
