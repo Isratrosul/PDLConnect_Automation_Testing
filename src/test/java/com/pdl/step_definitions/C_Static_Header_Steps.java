@@ -1,3 +1,4 @@
+
 package com.pdl.step_definitions;
 
 import io.cucumber.java.en.And;
@@ -7,7 +8,26 @@ import io.cucumber.java.en.When;
 import io.cucumber.java.en_lol.AN;
 import io.cucumber.java.en_old.Tha;
 
-public class C_Static_Header_Steps {
+
+
+
+
+// import com.pdl.pages.Contact_Us_Page;
+import com.pdl.pages.Homepage_Quafox;
+import com.pdl.pages.MyAccount_Page;
+import com.pdl.utilities.Driver;
+
+import io.cucumber.java.en.*;
+
+
+public class C_Static_Header_Steps extends Homepage_Quafox {
+	
+		
+		Homepage_Quafox static_Header = new Homepage_Quafox();
+//		Contact_Us_Page  contact_page = new Contact_Us_Page ();
+//	    MyAccount_Page  myaccount = new MyAccount_Page ();
+
+
 	@Given("Navigate to the registration web page of {string} e-commerce website")
 	public void navigate_to_the_registration_web_page_of_e_commerce_website(String Your_Store ) {
 	   

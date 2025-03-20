@@ -1421,7 +1421,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-02-25 18:40:27.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-02-25 18:40:27.411 [main] Hooks - CLosing the Driver
 [WARN ] 2025-02-25 18:40:27.856 [AsyncHttpClient-1-4] WebSocketHandler - onError
->>>>>>> Stashed changes
+
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -1437,7 +1437,7 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
-<<<<<<< Updated upstream
+
 [INFO ] 2025-02-25 00:06:51.314 [main] Hooks - Driver Closed
 [INFO ] 2025-02-25 00:09:16.667 [main] Hooks - ================================================================
 [INFO ] 2025-02-25 00:09:16.673 [main] Hooks - Scenario Title: 01_Validate User accesses the registration web page
@@ -4197,7 +4197,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-02-28 11:22:39.767 [main] StepNameListener - ---------------------------------------------------------------------
 [INFO ] 2025-02-28 11:22:40.076 [main] Hooks - CLosing the Driver
 [WARN ] 2025-02-28 11:22:40.190 [AsyncHttpClient-1-4] WebSocketHandler - onError
-=======
+
 [INFO ] 2025-02-25 18:40:28.030 [main] Hooks - Driver Closed
 [INFO ] 2025-02-25 18:42:13.778 [main] Hooks - ================================================================
 [INFO ] 2025-02-25 18:42:13.782 [main] Hooks - Scenario Title: 07_validate static header visibility
@@ -4239,7 +4239,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-02-25 18:43:04.702 [main] StepNameListener - ---------------------------------------------------------------------
 [INFO ] 2025-02-25 18:43:04.875 [main] Hooks - CLosing the Driver
 [WARN ] 2025-02-25 18:43:05.280 [AsyncHttpClient-1-4] WebSocketHandler - onError
->>>>>>> Stashed changes
+
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -4255,7 +4255,7 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
-<<<<<<< Updated upstream
+
 [INFO ] 2025-02-28 11:22:40.537 [main] Hooks - Driver Closed
 [INFO ] 2025-02-28 11:22:40.541 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-02-28 11:22:40.547 [main] Hooks - 03_Validate User registers for an account Status - PASSED
@@ -9927,7 +9927,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-03-06 21:38:49.056 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-03-06 21:38:49.062 [main] Hooks - 02_validate User fills out mandatory fields incorrectly Status - PASSED
 [INFO ] 2025-03-06 21:38:49.062 [main] Hooks - ------------------------------------------------------------------------------------------------------
-=======
+
 [INFO ] 2025-02-25 18:43:05.487 [main] Hooks - Driver Closed
 [INFO ] 2025-02-25 18:43:05.488 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-02-25 18:43:05.491 [main] Hooks - 07_validate static header visibility Status - PASSED
@@ -10273,7 +10273,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-03-04 19:50:16.800 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-03-04 19:50:16.817 [main] Hooks - CLosing the Driver
 [INFO ] 2025-03-04 19:50:17.302 [main] Hooks - Driver Closed
->>>>>>> Stashed changes
+
 [INFO ] 2025-03-10 17:46:45.784 [main] Hooks - ================================================================
 [INFO ] 2025-03-10 17:46:45.822 [main] Hooks - Scenario Title: Verify Recurring Payments option in the Quick Access Panel
 [INFO ] 2025-03-10 17:46:45.823 [main] Hooks - =================================================================
@@ -15767,3 +15767,202 @@ java.net.SocketException: Connection reset
 [INFO ] 2025-03-17 13:27:02.222 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2025-03-17 13:27:02.223 [main] Hooks - Verify Search Functionality with Category Selection Status - FAILED
 [INFO ] 2025-03-17 13:27:02.224 [main] Hooks - ------------------------------------------------------------------------------------------------------
+
+
+[INFO ] 2025-03-19 11:45:57.501 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:45:57.518 [main] Hooks - Scenario Title: 07_validate Static Header Visibility
+[INFO ] 2025-03-19 11:45:57.519 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:45:57.532 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:46:00.204 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:46:00.204 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:46:00.232 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:46:00.233 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:46:00.270 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:46:04.323 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:46:04.329 [main] Hooks - 07_validate Static Header Visibility Status - PASSED
+[INFO ] 2025-03-19 11:46:04.330 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:46:04.375 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:46:04.377 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:46:04.492 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:46:04.493 [main] Hooks - Scenario Title: 08_validate Static Header switching currencys
+[INFO ] 2025-03-19 11:46:04.493 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:46:04.494 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:46:05.009 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:46:05.010 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:46:05.033 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:46:05.034 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:46:05.613 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:46:29.336 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:46:29.336 [main] Hooks - 08_validate Static Header switching currencys Status - FAILED
+[INFO ] 2025-03-19 11:46:29.337 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:46:29.420 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:46:29.420 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:46:29.504 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:46:29.505 [main] Hooks - Scenario Title: 08_validate Static Header switching currencys
+[INFO ] 2025-03-19 11:46:29.505 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:46:29.507 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:46:30.155 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:46:30.156 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:46:30.183 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:46:30.184 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:46:30.759 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:46:55.955 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:46:55.955 [main] Hooks - 08_validate Static Header switching currencys Status - FAILED
+[INFO ] 2025-03-19 11:46:55.955 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:46:55.994 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:46:55.995 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:46:56.058 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:46:56.058 [main] Hooks - Scenario Title: 08_validate Static Header switching currencys
+[INFO ] 2025-03-19 11:46:56.059 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:46:56.059 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:46:57.100 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:46:57.101 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:46:57.130 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:46:57.131 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:46:57.711 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:47:22.927 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:47:22.927 [main] Hooks - 08_validate Static Header switching currencys Status - FAILED
+[INFO ] 2025-03-19 11:47:22.927 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:47:22.970 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:47:22.971 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:47:23.013 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:47:23.014 [main] Hooks - Scenario Title: 08_validate Static Header switching currencys
+[INFO ] 2025-03-19 11:47:23.015 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:47:23.015 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:47:24.062 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:47:24.063 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:47:24.093 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:47:24.095 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:47:24.672 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:47:49.381 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:47:49.382 [main] Hooks - 08_validate Static Header switching currencys Status - FAILED
+[INFO ] 2025-03-19 11:47:49.382 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:47:49.424 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:47:49.425 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:47:49.493 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:47:49.493 [main] Hooks - Scenario Title: 09_validate Contacts Are Accessible
+[INFO ] 2025-03-19 11:47:49.494 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:47:49.494 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:47:50.514 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:47:50.514 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:47:50.545 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:47:50.545 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:47:51.116 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:47:57.487 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:47:57.488 [main] Hooks - 09_validate Contacts Are Accessible Status - PASSED
+[INFO ] 2025-03-19 11:47:57.488 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:47:57.524 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:47:57.525 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:47:57.560 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:47:57.560 [main] Hooks - Scenario Title: 09_validate Contacts Are Accessible
+[INFO ] 2025-03-19 11:47:57.561 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:47:57.561 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:47:58.218 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:47:58.219 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:47:58.245 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:47:58.246 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:47:58.820 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:48:03.581 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:03.582 [main] Hooks - 09_validate Contacts Are Accessible Status - PASSED
+[INFO ] 2025-03-19 11:48:03.583 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:03.615 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:48:03.617 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:48:03.657 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:48:03.658 [main] Hooks - Scenario Title: 09_validate Contacts Are Accessible
+[INFO ] 2025-03-19 11:48:03.658 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:48:03.659 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:48:04.237 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:48:04.238 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:48:04.258 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:48:04.259 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:48:04.820 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:48:09.601 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:09.602 [main] Hooks - 09_validate Contacts Are Accessible Status - PASSED
+[INFO ] 2025-03-19 11:48:09.603 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:09.637 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:48:09.638 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:48:09.684 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:48:09.685 [main] Hooks - Scenario Title: 09_validate Contacts Are Accessible
+[INFO ] 2025-03-19 11:48:09.686 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:48:09.686 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:48:10.327 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:48:10.327 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:48:10.358 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:48:10.358 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:48:10.920 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:48:15.990 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:15.991 [main] Hooks - 09_validate Contacts Are Accessible Status - PASSED
+[INFO ] 2025-03-19 11:48:15.991 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:16.023 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:48:16.023 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:48:16.069 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:48:16.070 [main] Hooks - Scenario Title: 10_Validate Viewing My Account
+[INFO ] 2025-03-19 11:48:16.070 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:48:16.071 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:48:16.623 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:48:16.623 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:48:16.715 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:48:16.715 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:48:17.281 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:48:24.218 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:24.218 [main] Hooks - 10_Validate Viewing My Account Status - PASSED
+[INFO ] 2025-03-19 11:48:24.219 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:24.261 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:48:24.262 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:48:24.301 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:48:24.301 [main] Hooks - Scenario Title: 11_validate  Managing My Wishlist
+[INFO ] 2025-03-19 11:48:24.301 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:48:24.302 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:48:24.869 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:48:24.869 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:48:24.889 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:48:24.890 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:48:25.462 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:48:34.155 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:34.155 [main] Hooks - 11_validate  Managing My Wishlist Status - PASSED
+[INFO ] 2025-03-19 11:48:34.155 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:34.179 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:48:34.180 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:48:34.205 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:48:34.205 [main] Hooks - Scenario Title: 11_validate  Managing My Wishlist
+[INFO ] 2025-03-19 11:48:34.206 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:48:34.206 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:48:34.821 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:48:34.822 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:48:34.838 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:48:34.839 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:48:35.394 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:48:43.275 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:43.275 [main] Hooks - 11_validate  Managing My Wishlist Status - PASSED
+[INFO ] 2025-03-19 11:48:43.275 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:48:43.298 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:48:43.299 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:48:43.320 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:48:43.320 [main] Hooks - Scenario Title: 12_validate Accessing My Shopping Cart
+[INFO ] 2025-03-19 11:48:43.321 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:48:43.321 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:48:43.816 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:48:43.817 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:48:43.881 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:48:43.881 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:48:44.437 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:49:10.394 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:49:10.394 [main] Hooks - 12_validate Accessing My Shopping Cart Status - FAILED
+[INFO ] 2025-03-19 11:49:10.395 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:49:10.424 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:49:10.424 [main] Hooks - Driver Closed
+[INFO ] 2025-03-19 11:49:10.448 [main] Hooks - ================================================================
+[INFO ] 2025-03-19 11:49:10.448 [main] Hooks - Scenario Title: 13_validate Check out option
+[INFO ] 2025-03-19 11:49:10.448 [main] Hooks - =================================================================
+[INFO ] 2025-03-19 11:49:10.450 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2025-03-19 11:49:11.631 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2025-03-19 11:49:11.632 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2025-03-19 11:49:11.727 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2025-03-19 11:49:11.728 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2025-03-19 11:49:12.295 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2025-03-19 11:49:20.318 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:49:20.319 [main] Hooks - 13_validate Check out option Status - FAILED
+[INFO ] 2025-03-19 11:49:20.319 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2025-03-19 11:49:20.355 [main] Hooks - CLosing the Driver
+[INFO ] 2025-03-19 11:49:20.356 [main] Hooks - Driver Closed
+
