@@ -89,6 +89,7 @@
 			<version>3.1.1</version>
 			<!-- 	<version>5.3.2</version> -->
 			<scope>test</scope>
+			
 		</dependency>
 
 		<!--
@@ -236,6 +237,13 @@
 			<version>2.18.0</version>
 			<scope>test</scope>
 		</dependency>
+
+
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.12.3</version> <!-- Adjust the version as needed -->
+</dependency>
 
 
 		<!-- Shams Disabled -->
