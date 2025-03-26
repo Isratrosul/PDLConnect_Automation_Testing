@@ -3,12 +3,11 @@ package com.pdl.step_definitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+// import io.cucumber.java.en.When;
 
 public class E_QuickAccessPanel_Tc_43_Steps {
 	@Given("Verify the Returns option is visible in the Quick Access Panel")
 	public void verify_the_returns_option_is_visible_in_the_quick_access_panel() {
-	    // throw new io.cucumber.java.PendingException();
 		System.out.println("Verify the Returns option is visible in the Quick Access Panel");
 	}
 
